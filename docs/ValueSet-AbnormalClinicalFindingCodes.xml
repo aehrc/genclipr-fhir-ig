@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="AbnormalClinicalFindingCodes"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.owl</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  64572001 (Disease)</li></ul></div>
+  </text>
+  <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes"/>
+  <version value="0.1.0"/>
+  <name value="AbnormalClinicalFindingCodes"/>
+  <title value="Abnormal Clinical Findings Value Set"/>
+  <status value="active"/>
+  <date value="2021-02-15T16:35:31+10:00"/>
+  <publisher value="The Australian e-Health Research Centre"/>
+  <contact>
+    <name value="The Australian e-Health Research Centre"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://aehrc.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ontoserver-support@csiro.au"/>
+    </telecom>
+  </contact>
+  <description value="Abnormal clinical findings from SNOMED CT and HPO."/>
+  <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+  <compose>
+    <include>
+      <system value="http://purl.obolibrary.org/obo/hp.owl"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="HP:0000118"/>
+      </filter>
+    </include>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <filter>
+        <property value="concept"/>
+        <op value="descendent-of"/>
+        <value value="64572001"/>
+      </filter>
+    </include>
+  </compose>
+</ValueSet>

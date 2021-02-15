@@ -1,0 +1,57 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClassCodes> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "EncounterClassCodes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-EncounterClass.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</code></a></li><li>Import all the codes that are contained in <a href=\"https://terminology.hl7.org/1.0.0//ValueSet-v3-ActEncounterCode.html\">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClassCodes"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "EncounterClassCodes"];
+  fhir:ValueSet.title [ fhir:value "Encounter Class Value Set"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-02-15T16:35:31+10:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "The Australian e-Health Research Centre"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "The Australian e-Health Research Centre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://aehrc.com" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "ontoserver-support@csiro.au" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "Classes of encounters captured in a genomics clinical picture FHIR repository."];
+  fhir:ValueSet.copyright [ fhir:value "[Australian Genomics](https://www.australiangenomics.org.au)"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass" ]
+     ], [
+       fhir:index 1;
+       fhir:ValueSet.compose.include.valueSet [
+         fhir:value "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode";
+         fhir:index 0;
+         fhir:link <http://terminology.hl7.org/ValueSet/v3-ActEncounterCode>
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClassCodes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

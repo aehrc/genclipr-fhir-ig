@@ -1,0 +1,47 @@
+{
+  "resourceType": "ValueSet",
+  "id": "IdentifierTypeCodes",
+  "text": {
+    "status": "extensions",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-IdentifierType.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/IdentifierType</code></a></li><li>Include these codes as defined in <a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v2-0203.html\"><code>http://terminology.hl7.org/CodeSystem/v2-0203</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td><a href=\"https://terminology.hl7.org/1.0.0//CodeSystem-v2-0203.html#v2-0203-PI\">PI</a></td><td>Patient internal identifier</td><td>A number that is unique to a patient within an Assigning Authority.</td></tr></table></li></ul></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/IdentifierTypeCodes",
+  "version": "0.1.0",
+  "name": "IdentifierTypeCodes",
+  "title": "Identifier Types Value Set",
+  "status": "active",
+  "date": "2021-02-15T16:35:31+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Identifier types used in this IG.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/IdentifierType"
+      },
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/v2-0203",
+        "concept": [
+          {
+            "code": "PI"
+          }
+        ]
+      }
+    ]
+  }
+}

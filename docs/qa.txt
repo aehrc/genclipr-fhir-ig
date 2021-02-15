@@ -1,0 +1,102 @@
+﻿GenomicsClinicalPictureRepositoryIG : Validation Results
+=========================================
+
+err = 0, warn = 11, info = 0
+IG Publisher Version: 1.1.59
+Generated Mon Feb 15 16:37:37 AEST 2021. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
+
+ Build Errors : 0 / 0 / 0
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ImplementationGuide-agha.fhir.genclipr : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/codesystem-EncounterClass : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/codesystem-EncounterType : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/codesystem-FindingType : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/codesystem-IdentifierType : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-BiologicalSex : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-DeidentifiedPatient : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-ExaminationFinding : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-Finding : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-GencliprEncounter : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-GencliprResearchStudy : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-GencliprResearchSubject : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-PatientReportedFinding : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-ResearchStudyReference : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-Sign : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/structuredefinition-Symptom : 0 / 1 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-AbnormalClinicalFindingCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-BiologicalSexCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-BodySiteCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-ClinicalFindingCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-ClinicalFindingTypeCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-EncounterClassCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-EncounterTypeCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-IdentifierTypeCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-LateralityCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-PresenceCodes : 0 / 0 / 1
+ /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/valueset-SeverityCodes : 0 / 0 / 1
+</table>
+== n/a ==
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ImplementationGuide-agha.fhir.genclipr.json ==
+INFORMATION: ImplementationGuide/agha.fhir.genclipr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass.json ==
+INFORMATION: CodeSystem/EncounterClass: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterType.json ==
+INFORMATION: CodeSystem/EncounterType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-FindingType.json ==
+INFORMATION: CodeSystem/FindingType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-IdentifierType.json ==
+INFORMATION: CodeSystem/IdentifierType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-BiologicalSex.json ==
+INFORMATION: StructureDefinition/BiologicalSex: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/BiologicalSex'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-DeidentifiedPatient.json ==
+INFORMATION: StructureDefinition/DeidentifiedPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/DeidentifiedPatient'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ExaminationFinding.json ==
+INFORMATION: StructureDefinition/ExaminationFinding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ExaminationFinding'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Finding.json ==
+INFORMATION: StructureDefinition/Finding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Finding'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprEncounter.json ==
+INFORMATION: StructureDefinition/GencliprEncounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprEncounter'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchStudy.json ==
+INFORMATION: StructureDefinition/GencliprResearchStudy: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprResearchStudy'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchSubject.json ==
+INFORMATION: StructureDefinition/GencliprResearchSubject: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprResearchSubject'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-PatientReportedFinding.json ==
+INFORMATION: StructureDefinition/PatientReportedFinding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/PatientReportedFinding'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ResearchStudyReference.json ==
+INFORMATION: StructureDefinition/ResearchStudyReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference'): The Implementation Guide contains no examples for this extension
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Sign.json ==
+INFORMATION: StructureDefinition/Sign: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Sign'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Symptom.json ==
+INFORMATION: StructureDefinition/Symptom: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Symptom'): The Implementation Guide contains no examples for this profile
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-AbnormalClinicalFindingCodes.json ==
+INFORMATION: ValueSet/AbnormalClinicalFindingCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BiologicalSexCodes.json ==
+INFORMATION: ValueSet/BiologicalSexCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BodySiteCodes.json ==
+INFORMATION: ValueSet/BodySiteCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-ClinicalFindingCodes.json ==
+INFORMATION: ValueSet/ClinicalFindingCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-ClinicalFindingTypeCodes.json ==
+INFORMATION: ValueSet/ClinicalFindingTypeCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterClassCodes.json ==
+INFORMATION: ValueSet/EncounterClassCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterTypeCodes.json ==
+INFORMATION: ValueSet/EncounterTypeCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-IdentifierTypeCodes.json ==
+INFORMATION: ValueSet/IdentifierTypeCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-LateralityCodes.json ==
+INFORMATION: ValueSet/LateralityCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-PresenceCodes.json ==
+INFORMATION: ValueSet/PresenceCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== /Users/met045/CSIRO/workspaces/projects/genclipr-fhir-ig/fsh-generated/resources/ValueSet-SeverityCodes.json ==
+INFORMATION: ValueSet/SeverityCodes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet

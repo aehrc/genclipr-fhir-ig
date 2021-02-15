@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="EncounterClass"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">RS<a name="EncounterClass-RS"> </a></td><td>research study</td><td>An encounter that is part of a research study.</td></tr></table></div>
+  </text>
+  <url value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass"/>
+  <version value="0.1.0"/>
+  <name value="EncounterClass"/>
+  <title value="Encounter Class"/>
+  <status value="active"/>
+  <date value="2021-02-15T16:35:31+10:00"/>
+  <publisher value="The Australian e-Health Research Centre"/>
+  <contact>
+    <name value="The Australian e-Health Research Centre"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://aehrc.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ontoserver-support@csiro.au"/>
+    </telecom>
+  </contact>
+  <description value="Class of encounters captured in a genomics clinical picture FHIR repository."/>
+  <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+  <content value="complete"/>
+  <count value="1"/>
+  <concept>
+    <code value="RS"/>
+    <display value="research study"/>
+    <definition value="An encounter that is part of a research study."/>
+  </concept>
+</CodeSystem>

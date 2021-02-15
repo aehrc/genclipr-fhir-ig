@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE HTML>
+<html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
+    <title>AGHA.FHIR.GENCLIPR\Home - FHIR v4.0.1</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="author" content="http://hl7.org/fhir"/>
+
+    <link href="fhir.css" rel="stylesheet"/>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet"/>
+    <link href="assets/css/bootstrap-fhir.css" rel="stylesheet"/>
+
+    <!-- Project extras -->
+    <link href="assets/css/project.css" rel="stylesheet"/>
+    <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
+    <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
+  	<link href="assets/css/prism.css" rel="stylesheet" />
+    <!-- Placeholder for child template CSS declarations -->
+
+    <script type="text/javascript" src="fhir-table-scripts.js"> </script>
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="assets/js/html5shiv.js"></script>
+    <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png"/>
+    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png"/>
+    <link rel="shortcut icon" href="assets/ico/favicon.png"/>
+  </head>
+  <body onload="document.body.style.opacity='1'">
+
+	  <script src="assets/js/prism.js"></script>
+
+    <style type="text/css">h2{--heading-prefix:"1"}
+    h3,h4,h5,h6{--heading-prefix:"1"}</style>
+    <div id="segment-header" class="segment">  <!-- segment-header -->
+      <div class="container">  <!-- container -->
+        <!-- Placeholder for child template header declarations -->
+
+
+        <div id="ig-status">
+          <p><span style="font-size:12pt;font-weight:bold">Genomics Clinical Picture Repository Implementation Guide</span><br/>0.1.0 - ci-build</p>
+        </div>
+      </div> <!-- /container -->
+    </div>  <!-- /segment-header -->
+
+    <div id="segment-navbar" class="segment">  <!-- segment-navbar -->
+      <div id="stripe"> </div>
+      <div class="container">  <!-- container -->
+        <!-- HEADER CONTENT -->
+
+        <nav class="navbar navbar-inverse">
+          <!--status-bar-->
+          <div class="container">
+            <button data-target=".navbar-inverse-collapse" class="navbar-toggle" data-toggle="collapse" type="button">
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+              <span class="icon-bar"> </span>
+            </button>
+            <a class="navbar-brand hidden" href="http://hl7.org/fhir/R4/index.html">FHIR</a>
+            <div class="nav-collapse collapse navbar-inverse-collapse">
+              <!-- menu.xml  -->
+
+<ul xmlns="http://www.w3.org/1999/xhtml" class="nav navbar-nav">
+  <li>
+    <a href="index.html">Home</a>
+  </li>
+  <li>
+    <a href="artifacts.html">Artifacts</a>
+  </li>
+</ul>
+            </div>  <!-- /.nav-collapse -->
+          </div>  <!-- /.container -->
+        </nav>  <!-- /.navbar -->
+      <!-- /HEADER CONTENT -->
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-navbar -->
+    <!--status-bar-->
+    <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
+      <div class="container">  <!-- container -->
+        <ul class="breadcrumb">
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Home</b></li>
+        </ul>
+      </div>  <!-- /container -->
+    </div>  <!-- /segment-breadcrumb -->
+
+    <div id="segment-content">  <!-- segment-content -->
+      <div class="container">  <!-- container -->
+        <div class="row">
+          <div class="inner-wrapper">
+
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
+<div class="col-12">
+  <!--ReleaseHeader--><p id="publish-box">Genomics Clinical Picture Repository Implementation Guide - Local Development build (v0.1.0). See the <a href="http://aehrc.github.io/genclipr-fhir-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Home</h2>
+  
+
+
+
+
+
+
+
+
+
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#genomics-clinical-picture-repository-fhir-implementation-guide" id="markdown-toc-genomics-clinical-picture-repository-fhir-implementation-guide">Genomics Clinical Picture Repository FHIR Implementation Guide</a>    <ul>
+      <li><a href="#scope" id="markdown-toc-scope">Scope</a></li>
+      <li><a href="#understanding-fhir" id="markdown-toc-understanding-fhir">Understanding FHIR</a></li>
+      <li><a href="#design" id="markdown-toc-design">Design</a>        <ul>
+          <li><a href="#research-study" id="markdown-toc-research-study">Research study</a></li>
+          <li><a href="#encounter" id="markdown-toc-encounter">Encounter</a></li>
+          <li><a href="#patient" id="markdown-toc-patient">Patient</a></li>
+          <li><a href="#findings" id="markdown-toc-findings">Findings</a></li>
+          <li><a href="#signs-and-symptoms" id="markdown-toc-signs-and-symptoms">Signs and Symptoms</a></li>
+        </ul>
+      </li>
+      <li><a href="#authors" id="markdown-toc-authors">Authors</a></li>
+      <li><a href="#references" id="markdown-toc-references">References</a></li>
+    </ul>
+  </li>
+</ul>
+
+</div>
+<h1 id="genomics-clinical-picture-repository-fhir-implementation-guide">Genomics Clinical Picture Repository FHIR Implementation Guide</h1>
+
+<h2 id="scope">Scope</h2>
+
+<p>This implementation guide describes a collection of FHIR resources that can be used to implement a repository that stores patient clinical pictures, including clinically relevant genomic data. Patient information can come from multiple sources, including electronic health record systems (EHRs), electronic data capture systems such as REDCap, and laboratory information management systems (LIMs). It is meant to be used in a research setting and therefore requires patient information to be de-identified. The FHIR profiles contain strict terminology bindings that ensure queries can be run consistently across multiple repositories. This implies, however, that data might require mapping and transformation, even when being imported from FHIR-enabled sources.</p>
+
+<h2 id="understanding-fhir">Understanding FHIR</h2>
+
+<p>This implementation guide uses terminology, notations and design principles that are specific to FHIR. Before reading this implementation guide, its important to be familiar with some of the basic principles of FHIR as well as general guidance on how to read FHIR specifications. Readers who are unfamiliar with FHIR are encouraged to read (or at least skim) the following prior to reading the rest of this implementation guide.</p>
+
+<ul>
+  <li><a href="http://hl7.org/fhir/overview.html">FHIR overview</a></li>
+  <li><a href="http://hl7.org/fhir/overview-dev.html">Developer’s Introduction</a></li>
+  <li><a href="http://hl7.org/fhir/overview-clinical.html">Clinical Introduction</a></li>
+  <li><a href="http://hl7.org/fhir/datatypes.html">FHIR data types</a></li>
+  <li><a href="http://hl7.org/fhir/terminologies.html">Using codes</a></li>
+  <li><a href="http://hl7.org/fhir/references.html">References between resources</a></li>
+  <li><a href="http://hl7.org/fhir/formats.html">How to read resource and profile definitions</a></li>
+  <li><a href="http://hl7.org/fhir/resource.html">Base resource</a></li>
+</ul>
+
+<p>This implementation guide builds on FHIR v4.0.1: R4.</p>
+
+<h2 id="design">Design</h2>
+
+<p>The design decisions in this implementation guide are based on the guidance given in the base FHIR specification and the paper <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3041577/">Toward an Ontological Treatment of Disease and Diagnosis</a>.</p>
+
+<p>A summary of the model is shown in the following diagram:</p>
+
+<p><img src="model.png" alt="FHIR model" style="float:none" /></p>
+
+<p>The following sections describe the different resources that were used.</p>
+
+<h3 id="research-study">Research study</h3>
+
+<p>When data is being imported from a research study, the <a href="StructureDefinition-GencliprResearchStudy.html">GencliprResearchStudy</a> profile should be used to indicate that these resources where produced as part of the study. The <a href="http://hl7.org/fhir/StructureDefinition/workflow-researchStudy">researchStudy</a> extension can be used to indicate that an event is relevant to a research study. In this IG it is used to link <a href="StructureDefinition-GencliprEncounter.html">GencliprEncounter</a>s to a <a href="StructureDefinition-GencliprResearchStudy.html">GencliprResearchStudy</a>.</p>
+
+<h3 id="encounter">Encounter</h3>
+
+<p>All resources are required to be associated with a <a href="StructureDefinition-GencliprEncounter.html">GencliprEncounter</a>. If the data comes from a research study then the encounter should be linked to the corresponding research study resource. No direct links from the resources in the encounter to the research study are required.</p>
+
+<h3 id="patient">Patient</h3>
+
+<p>The main challenge when dealing with de-identified data is matching data about the same patient from multiple sources. A typical approach is to use <em>pseudonimisation</em>, but this is out of scope of this implementation guide. A <a href="StructureDefinition-DeidentifiedPatient.html">DeidentifiedPatient</a> only requires an identifier. Every resource should be associated to a <a href="StructureDefinition-DeidentifiedPatient.html">DeidentifiedPatient</a> regardless of the data’s origin. When data originates in a research study, a <a href="StructureDefinition-GencliprResearchSubject.html">GencliprResearchSubject</a> is also required to establish the link to the corresponding <a href="StructureDefinition-GencliprResearchStudy.html">GencliprResearchStudy</a>. Both the patient and the research subject should have the same identifier.</p>
+
+<h4 id="date-of-birth">Date of birth</h4>
+
+<p>The <code class="highlighter-rouge">dateOfBirth</code> attribute is mandatory. In certain scenarios, for example when dealing with rare diseases, a full date of birth might be identifying. The FHIR <code class="highlighter-rouge">date</code> data type also accepts years or years and months only. In cases where providing the full date of birth is problematic, the source systems should submit only a partial date of birth. This, however, is not validated by the IG.</p>
+
+<h4 id="gender-and-sex">Gender and sex</h4>
+
+<p>The <code class="highlighter-rouge">gender</code> attribute in the <code class="highlighter-rouge">Patient</code> resource represents the patient’s administrative gender. The clinical picture repository requires the biological sex, and this should be represented as an Observation, according to the <a href="https://www.hl7.org/fhir/patient.html#gender">FHIR documentation</a>. The implementation guide defines the <a href="StructureDefinition-BiologicalSex.html">BiologicalSex</a> profile to represent this observation and this is the preferred mechanism to record the patient’s biological sex. If only the administrative gender is available, then the <code class="highlighter-rouge">gender</code> attribute can be used.</p>
+
+<h3 id="findings">Findings</h3>
+
+<p><a href="StructureDefinition-Finding.html">Finding</a> is the parent class of all the observations whose value can be represented as a code from the <a href="ValueSet-PresenceCodes.html">presence value set</a>. It extends the <a href="https://www.hl7.org/fhir/observation.html">Observation</a> resource and follows the third pattern discussed in the <a href="http://hl7.org/fhir/R4/observation.html#code-interop">interoperability section</a>. In this case, the code is reduced to a single term and the value indicates its presence or absence. The choice was made to support a coded value instead of a boolean value, so values such as <em>not done</em> could be supported. This is important because when running complex queries, for example, the calculation of scores that use multiple data points, it is important to distinguish if these data points are absent or were never collected.</p>
+
+<p>Observations that do not follow this pattern have their own profile, such as <a href="StructureDefinition-BiologicalSex.html">biological sex</a>. Findings can be further categorised into <a href="StructureDefinition-PatientReportedFinding.html">patient-reported findings</a> and <a href="StructureDefinition-ExaminationFinding.html">examination findings</a>.</p>
+
+<h3 id="signs-and-symptoms">Signs and Symptoms</h3>
+
+<p>A sign is defined as “a bodily feature of a patient that is observed in a physical examination and is deemed by the clinician to be of clinical significance”. Note that in this IG we distinguish a <code class="highlighter-rouge">sign</code> from a <code class="highlighter-rouge">phenotype</code> or <code class="highlighter-rouge">phenotypic feature</code>. A sign is an <em>observation</em> of a phenotype and therefore the repository is a collection of signs (and symptoms) rather than phenotypes (or phenotypic features). The <a href="StructureDefinition-Sign.html">Sign</a> profile extends the <a href="StructureDefinition-ExaminationFinding.html">ExaminationFinding</a> profile and the <a href="StructureDefinition-Symptom.html">Symptom</a> profile extends the <a href="StructureDefinition-PatientReportedFinding.html">PatientReportedFinding</a> profile. Both of these constrain the codes to be abnormal conditions, i.e., the code is bound to a value set that includes SNOMED CT disorders and HPO phenotypic abnormalities.</p>
+
+<h2 id="authors">Authors</h2>
+
+<ul>
+  <li>Alejandro Metke <a href="https://github.com/ametke">GitHub</a></li>
+</ul>
+
+<h2 id="references">References</h2>
+
+<p><img src="csiro_logo.jpg" alt="alt text" title="CSIRO logo" />
+<img src="aehrc_logo.jpg" alt="alt text" title="AEHRC logo" /></p>
+
+
+
+
+</div>
+        </div>  <!-- /inner-wrapper -->
+      </div>  <!-- /row -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-content -->
+
+  <script type="text/javascript" src="assets/js/jquery.js"> </script>     <!-- note keep space here, otherwise it will be transformed to empty tag -> fails -->
+  <script type="text/javascript" src="assets/js/jquery-ui.min.js"> </script>
+
+  <script type="text/javascript">
+    $(document).ready(function(){
+      if(window.location.hash != "") {
+          $('a[href="' + window.location.hash + '"]').click()
+      }
+    });
+  </script>
+  <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
+    <div class="container">  <!-- container -->
+      <div class="inner-wrapper">
+        <p>
+          IG &#169; 2021+ <a style="color: #81BEF7" href="https://aehrc.com">The Australian e-Health Research Centre</a>.  Package agha.fhir.genclipr#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Feb 15, 2021 16:35+1000">2021-02-15</span>
+          <br/>
+          <span style="color: #FFFF77">
+                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
+                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          </span>
+        </p>
+      </div>  <!-- /inner-wrapper -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-footer -->
+  
+  <div id="segment-post-footer" class="segment hidden">  <!-- segment-post-footer -->
+    <div class="container">  <!-- container -->
+    </div>  <!-- /container -->
+  </div>  <!-- /segment-post-footer -->
+  
+  <!-- JS and analytics only. -->
+  <!-- Bootstrap core JavaScript
+  ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
+  <script type="text/javascript" src="assets/js/respond.min.js"> </script>
+  <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script>anchors.options.visible = 'hover'
+anchors.add()</script>
+  
+  <!-- Analytics Below
+  ================================================== -->
+  </body>
+</html>
