@@ -1,0 +1,29 @@
+# ╭──────────────────────────────────────ImplementationGuide───────────────────────────────────────╮
+# │  The properties below are used to create the ImplementationGuide resource. For a list of       │
+# │  supported properties, see: https://fshschool.org/sushi/configuration/                         │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+id: agha.fhir.genclipr
+canonical: http://aehrc.github.io/genclipr-fhir-ig
+name: GenomicsClinicalPictureRepositoryIG
+title: "Genomics Clinical Picture Repository Implementation Guide"
+description: "FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics."
+status: draft
+license: CC0-1.0
+version: 0.1.0
+fhirVersion: 4.0.1
+copyrightYear: 2021+
+copyright: "[Australian Genomics](https://www.australiangenomics.org.au)"
+releaseLabel: ci-build
+publisher:
+  name: The Australian e-Health Research Centre
+  url: https://aehrc.com
+  email: ontoserver-support@csiro.au
+dependencies:
+  hl7.fhir.uv.genomics-reporting: 1.0.0
+
+# ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
+# │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
+# ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
+menu:
+  Home: index.html
+  Artifacts: artifacts.html
