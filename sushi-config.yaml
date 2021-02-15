@@ -6,7 +6,7 @@ id: agha.fhir.genclipr
 canonical: http://aehrc.github.io/genclipr-fhir-ig
 name: GenomicsClinicalPictureRepositoryIG
 title: "Genomics Clinical Picture Repository Implementation Guide"
-description: "FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics."
+description: "FHIR implementation guide for the Genomics Clinical Picture Repository standard developed as part of the Standardised Clinical Phenotypes project in Australian Genomics."
 status: draft
 license: CC0-1.0
 version: 0.1.0
