@@ -63,7 +63,5 @@ A sign is defined as "a bodily feature of a patient that is observed in a physic
 
 - Alejandro Metke [GitHub](https://github.com/ametke)
 
-## References
-
 ![alt text](csiro_logo.jpg "CSIRO logo")
 ![alt text](aehrc_logo.jpg "AEHRC logo")
