@@ -3,14 +3,14 @@
   "id": "agha.fhir.genclipr",
   "text": {
     "status": "extensions",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GenomicsClinicalPictureRepositoryIG</h2><p>The official URL for this implementation guide is: </p><pre>http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr</pre><div><p>FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics.</p>\n</div></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><h2>GenomicsClinicalPictureRepositoryIG</h2><p>The official URL for this implementation guide is: </p><pre>http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr</pre><div><p>FHIR implementation guide for the Genomics Clinical Picture Repository standard developed as part of the Standardised Clinical Phenotypes project in Australian Genomics.</p>\n</div></div>"
   },
   "url": "http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr",
   "version": "0.1.0",
   "name": "GenomicsClinicalPictureRepositoryIG",
   "title": "Genomics Clinical Picture Repository Implementation Guide",
   "status": "draft",
-  "date": "2021-02-15T16:35:31+10:00",
+  "date": "2021-04-09T13:48:22+10:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -27,7 +27,7 @@
       ]
     }
   ],
-  "description": "FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics.",
+  "description": "FHIR implementation guide for the Genomics Clinical Picture Repository standard developed as part of the Standardised Clinical Phenotypes project in Australian Genomics.",
   "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
   "packageId": "agha.fhir.genclipr",
   "license": "CC0-1.0",
@@ -332,7 +332,7 @@
           "reference": "StructureDefinition/ExaminationFinding"
         },
         "name": "Examination Finding",
-        "description": "An observation made by a clinician that can be normal or abnormal.",
+        "description": "An observation made by a clinician or patient that can be normal or abnormal.",
         "exampleBoolean": false
       },
       {
@@ -399,10 +399,10 @@
           }
         ],
         "reference": {
-          "reference": "StructureDefinition/PatientReportedFinding"
+          "reference": "StructureDefinition/LaboratoryFinding"
         },
-        "name": "Patient Reported Finding",
-        "description": "An observation made by the patient that can be normal or abnormal.",
+        "name": "Laboratory Finding",
+        "description": "An observation based on the result of a laboratory test.",
         "exampleBoolean": false
       },
       {

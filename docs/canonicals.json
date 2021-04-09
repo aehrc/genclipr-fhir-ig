@@ -84,11 +84,11 @@
     "name": "GencliprResearchSubject"
   },
   {
-    "id": "PatientReportedFinding",
+    "id": "LaboratoryFinding",
     "type": "StructureDefinition",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/PatientReportedFinding",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding",
     "version": "0.1.0",
-    "name": "PatientReportedFinding"
+    "name": "LaboratoryFinding"
   },
   {
     "id": "ResearchStudyReference",

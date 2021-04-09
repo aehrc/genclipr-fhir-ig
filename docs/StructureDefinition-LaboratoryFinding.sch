@@ -10,6 +10,12 @@
     single schematron that validates contained resources (if you have any) 
   -->
   <sch:pattern>
+    <sch:title>f:Observation</sch:title>
+    <sch:rule context="f:Observation">
+      <sch:assert test="count(f:bodySite) &lt;= 0">bodySite: maximum cardinality of 'bodySite' is 0</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
     <sch:title>Observation</sch:title>
     <sch:rule context="f:Observation">
       <sch:assert test="not(parent::f:contained and f:contained)">If the resource is contained in another resource, it SHALL NOT contain nested Resources (inherited)</sch:assert>
@@ -251,84 +257,99 @@
   <sch:pattern>
     <sch:title>Observation.component</sch:title>
     <sch:rule context="f:Observation/f:component">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.extension</sch:title>
     <sch:rule context="f:Observation/f:component/f:extension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.modifierExtension</sch:title>
     <sch:rule context="f:Observation/f:component/f:modifierExtension">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.code</sch:title>
     <sch:rule context="f:Observation/f:component/f:code">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.value[x] 1</sch:title>
     <sch:rule context="f:Observation/f:component/f:value[x]">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.dataAbsentReason</sch:title>
     <sch:rule context="f:Observation/f:component/f:dataAbsentReason">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.interpretation</sch:title>
     <sch:rule context="f:Observation/f:component/f:interpretation">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
     <sch:title>Observation.component.referenceRange</sch:title>
     <sch:rule context="f:Observation/f:component/f:referenceRange">
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
-      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
   <sch:pattern>
-    <sch:title>f:Observation/f:component</sch:title>
-    <sch:rule context="f:Observation/f:component">
-      <sch:assert test="count(f:dataAbsentReason) &lt;= 0">dataAbsentReason: maximum cardinality of 'dataAbsentReason' is 0</sch:assert>
-      <sch:assert test="count(f:interpretation) &lt;= 0">interpretation: maximum cardinality of 'interpretation' is 0</sch:assert>
-      <sch:assert test="count(f:referenceRange) &lt;= 0">referenceRange: maximum cardinality of 'referenceRange' is 0</sch:assert>
-      <sch:assert test="count(f:dataAbsentReason) &lt;= 0">dataAbsentReason: maximum cardinality of 'dataAbsentReason' is 0</sch:assert>
-      <sch:assert test="count(f:interpretation) &lt;= 0">interpretation: maximum cardinality of 'interpretation' is 0</sch:assert>
-      <sch:assert test="count(f:referenceRange) &lt;= 0">referenceRange: maximum cardinality of 'referenceRange' is 0</sch:assert>
+    <sch:title>Observation.component.value[x].extension 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:extension">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children</sch:assert>
+      <sch:assert test="exists(f:extension)!=exists(f:*[starts-with(local-name(.), &quot;value&quot;)])">Must have either extensions or value[x], not both</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Observation.component.value[x].value 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:value">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Observation.component.value[x].comparator 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:comparator">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Observation.component.value[x].unit 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:unit">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Observation.component.value[x].system 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:system">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
+    </sch:rule>
+  </sch:pattern>
+  <sch:pattern>
+    <sch:title>Observation.component.value[x].code 1</sch:title>
+    <sch:rule context="f:Observation/f:component/f:value[x]/f:code">
+      <sch:assert test="@value|f:*|h:div">All FHIR elements must have a @value or children (inherited)</sch:assert>
     </sch:rule>
   </sch:pattern>
 </sch:schema>

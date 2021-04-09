@@ -53,11 +53,14 @@ The `gender` attribute in the `Patient` resource represents the patient's admini
 
 [Finding](StructureDefinition-Finding.html) is the parent class of all the observations whose value can be represented as a code from the [presence value set](ValueSet-PresenceCodes.html). It extends the [Observation](https://www.hl7.org/fhir/observation.html) resource and follows the third pattern discussed in the [interoperability section](http://hl7.org/fhir/R4/observation.html#code-interop). In this case, the code is reduced to a single term and the value indicates its presence or absence. The choice was made to support a coded value instead of a boolean value, so values such as _not done_ could be supported. This is important because when running complex queries, for example, the calculation of scores that use multiple data points, it is important to distinguish if these data points are absent or were never collected.
 
-Observations that do not follow this pattern have their own profile, such as [biological sex](StructureDefinition-BiologicalSex.html). Findings can be further categorised into [patient-reported findings](StructureDefinition-PatientReportedFinding.html) and [examination findings](StructureDefinition-ExaminationFinding.html).
+Observations that do not follow this pattern have their own profile, such as [biological sex](StructureDefinition-BiologicalSex.html).
 
-### Signs and Symptoms
+#### Signs and Symptoms
 
 A sign is defined as "a bodily feature of a patient that is observed in a physical examination and is deemed by the clinician to be of clinical significance". Note that in this IG we distinguish a `sign` from a `phenotype` or `phenotypic feature`. A sign is an _observation_ of a phenotype and therefore the repository is a collection of signs (and symptoms) rather than phenotypes (or phenotypic features). The [Sign](StructureDefinition-Sign.html) profile extends the [ExaminationFinding](StructureDefinition-ExaminationFinding.html) profile and the [Symptom](StructureDefinition-Symptom.html) profile extends the [PatientReportedFinding](StructureDefinition-PatientReportedFinding.html) profile. Both of these constrain the codes to be abnormal conditions, i.e., the code is bound to a value set that includes SNOMED CT disorders and HPO phenotypic abnormalities.
+
+#### Laboratory Findings
+A laboratory finding is defined as "a representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient". In this IG, laboratory findings are observations that interpret raw test results and follow the same basic pattern as signs and symptoms but contain different modifiers that are relevant in this context. They can be referenced by a [DiagnosticReport](https://www.hl7.org/fhir/diagnosticreport.html), but this is not required.
 
 ## Authors
 

@@ -3,7 +3,7 @@
 <ImplementationGuide xmlns="http://hl7.org/fhir">
   <id value="agha.fhir.genclipr"/>
   <text>
-    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>GenomicsClinicalPictureRepositoryIG</h2><p>The official URL for this implementation guide is: </p><pre>http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr</pre><div><p>FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics.</p>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><h2>GenomicsClinicalPictureRepositoryIG</h2><p>The official URL for this implementation guide is: </p><pre>http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr</pre><div><p>FHIR implementation guide for the Genomics Clinical Picture Repository standard developed as part of the Standardised Clinical Phenotypes project in Australian Genomics.</p>
 </div></div>
   </text>
   <url value="http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr"/>
@@ -11,7 +11,7 @@
   <name value="GenomicsClinicalPictureRepositoryIG"/>
   <title value="Genomics Clinical Picture Repository Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-02-15T16:35:31+10:00"/>
+  <date value="2021-04-09T13:48:22+10:00"/>
   <publisher value="The Australian e-Health Research Centre"/>
   <contact>
     <name value="The Australian e-Health Research Centre"/>
@@ -24,7 +24,7 @@
       <value value="ontoserver-support@csiro.au"/>
     </telecom>
   </contact>
-  <description value="FHIR implementation guide for Genomics Genomics Clinical Picture Repository standard developed for Australian Genomics."/>
+  <description value="FHIR implementation guide for the Genomics Clinical Picture Repository standard developed as part of the Standardised Clinical Phenotypes project in Australian Genomics."/>
   <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
   <packageId value="agha.fhir.genclipr"/>
   <license value="CC0-1.0"/>
@@ -217,7 +217,7 @@
         <reference value="StructureDefinition/ExaminationFinding"/>
       </reference>
       <name value="Examination Finding"/>
-      <description value="An observation made by a clinician that can be normal or abnormal."/>
+      <description value="An observation made by a clinician or patient that can be normal or abnormal."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -269,10 +269,10 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/PatientReportedFinding"/>
+        <reference value="StructureDefinition/LaboratoryFinding"/>
       </reference>
-      <name value="Patient Reported Finding"/>
-      <description value="An observation made by the patient that can be normal or abnormal."/>
+      <name value="Laboratory Finding"/>
+      <description value="An observation based on the result of a laboratory test."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

@@ -191,14 +191,26 @@ Title: "Finding"
 Description: "An observation about a patient that can be normal or abnormal and is expressed in a way that its action is reduced to a single concept (see pattern 3 in http://hl7.org/fhir/R4/observation.html#code-interop)."
 * category MS
 * category 1..*
-* bodySite MS
-* bodySite from BodySiteCodes (required)
+* code from AbnormalClinicalFindingCodes (required)
 * subject 1..1
 * subject only Reference(DeidentifiedPatient)
 * effective[x] only dateTime or Period
 * effective[x] MS
 * encounter 1..1
 * encounter only Reference(GencliprEncounter)
+* value[x] from PresenceCodes (required)
+* focus 0..0
+* interpretation 0..0
+* referenceRange 0..0
+* hasMember 0..0
+
+Profile: ExaminationFinding
+Parent: Finding
+Id: ExaminationFinding
+Title: "Examination Finding"
+Description: "An observation made by a clinician or patient that can be normal or abnormal."
+* bodySite MS
+* bodySite from BodySiteCodes (required)
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
@@ -217,36 +229,34 @@ Description: "An observation about a patient that can be normal or abnormal and 
 * component[severity].dataAbsentReason 0..0
 * component[severity].interpretation 0..0
 * component[severity].referenceRange 0..0
-* value[x] from PresenceCodes (required)
-* focus 0..0
-* interpretation 0..0
-* referenceRange 0..0
-* hasMember 0..0
-
-Profile: PatientReportedFinding
-Parent: Finding
-Id: PatientReportedFinding
-Title: "Patient Reported Finding"
-Description: "An observation made by the patient that can be normal or abnormal."
-* category = FindingType#patient-reported
-
-Profile: ExaminationFinding
-Parent: Finding
-Id: ExaminationFinding
-Title: "Examination Finding"
-Description: "An observation made by a clinician that can be normal or abnormal."
-* category = OBSCAT#exam
 
 Profile: Symptom
-Parent: PatientReportedFinding
+Parent: ExaminationFinding
 Id: Symptom
 Title: "Symptom"
 Description: "A symptom is an observation made by the patient and is hypothesized to be a realization of a disease."
-* code from AbnormalClinicalFindingCodes (required)
+* category = FindingType#patient-reported
 
 Profile: Sign
 Parent: ExaminationFinding
 Id: Sign
 Title: "Sign"
 Description: "A sign is a bodily feature of a patient observed by a clinician which is deemed to be of clinical relevance. It records a phenotype that is clinically abnormal."
-* code from AbnormalClinicalFindingCodes (required)
+* category = OBSCAT#exam
+
+Profile: LaboratoryFinding
+Parent: Finding
+Id: LaboratoryFinding
+Title: "Laboratory Finding"
+Description: "An observation based on the result of a laboratory test."
+* bodySite 0..0
+* component ^slicing.discriminator.type = #pattern
+* component ^slicing.discriminator.path = "code"
+* component ^slicing.rules = #open
+* component ^slicing.description = "Slice based on the component.code pattern"
+* component contains percentage 0..1 MS
+* component[percentage].code = SCT#272741003 // Laterality
+* component[percentage].value[x] only Quantity
+* component[percentage].valueQuantity.unit = "percentage"
+* component[percentage].valueQuantity.system = UCUM
+* component[percentage].valueQuantity.code = UCUM#%
