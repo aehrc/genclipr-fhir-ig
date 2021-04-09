@@ -45,7 +45,12 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","registered | preliminary | final | amended +","The status of the result value.","This element is labeled as a modifier because the status contains codes that mark the resource as not currently valid.","Need to track the status of individual results. Some results are finalized before the whole report is finalized.","","","","","","","",,"required","Codes providing the status of an observation.","http://hl7.org/fhir/ValueSet/observation-status|4.0.1","",,,,"Observation.status",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.status","< 445584004 |Report by finality status|","OBX-11","status  Amended & Final are differentiated by whether it is the subject of a ControlAct event with a type of ""revise""","FiveWs.status"
 "Observation.category","","","",1,*,"Y","","","CodeableConcept {[]} {[]}
-","Classification of  type of observation","A code that classifies the general type of observation being made.","In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.","Used for filtering what observations are retrieved and displayed.","","","","","","","",,"preferred","Codes for high level observation categories.","http://hl7.org/fhir/ValueSet/observation-category","",,,,"Observation.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Classification of  type of observation","A code that classifies the general type of observation being made.","In addition to the required category valueset, this element allows various categorization schemes based on the owner’s definition of the category and effectively multiple categories can be used at once.  The level of granularity is defined by the category concepts in the value set.","Used for filtering what observations are retrieved and displayed.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
+  <coding>
+    <system value=""http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType""/>
+    <code value=""laboratory-finding""/>
+  </coding>
+</valueCodeableConcept>","","","",,"preferred","Codes for high level observation categories.","http://hl7.org/fhir/ValueSet/observation-category","",,,,"Observation.category",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ",".outboundRelationship[typeCode=""COMP].target[classCode=""LIST"", moodCode=""EVN""].code","FiveWs.class"
 "Observation.code","","Name
 ","",1,1,"","","Y","CodeableConcept {[]} {[]}
@@ -196,7 +201,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Type of component observation (code / type)","Describes what was observed. Sometimes this is called the observation ""code"".","*All* code-value and  component.code-component.value pairs need to be taken into account to correctly understand the meaning of the observation.","Knowing what kind of observation is being made is essential to understanding the observation.","","","","<valueCodeableConcept xmlns=""http://hl7.org/fhir"">
   <coding>
     <system value=""http://snomed.info/sct""/>
-    <code value=""272741003""/>
+    <code value=""258755000""/>
   </coding>
 </valueCodeableConcept>","","","",,"example","Codes identifying names of simple observations.","http://hl7.org/fhir/ValueSet/observation-codes","",,,,"Observation.component.code",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","< 363787002 |Observable entity| OR < 386053000 |Evaluation procedure|","OBX-3","code","FiveWs.what[x]"
