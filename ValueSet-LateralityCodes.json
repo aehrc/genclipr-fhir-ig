@@ -1,0 +1,57 @@
+{
+  "resourceType": "ValueSet",
+  "id": "LateralityCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24028007\">24028007</a></td><td>Right</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7771000\">7771000</a></td><td>Left</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=66459002\">66459002</a></td><td>Unilateral</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51440002\">51440002</a></td><td>Right and left</td></tr></table></li></ul></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/LateralityCodes",
+  "version": "0.1.0",
+  "name": "LateralityCodes",
+  "title": "Laterality Value Set",
+  "status": "active",
+  "date": "2021-04-09T16:31:20+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Codes used to describe the laterality of a body structure.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "24028007",
+            "display": "Right"
+          },
+          {
+            "code": "7771000",
+            "display": "Left"
+          },
+          {
+            "code": "66459002",
+            "display": "Unilateral"
+          },
+          {
+            "code": "51440002",
+            "display": "Right and left"
+          }
+        ]
+      }
+    ]
+  }
+}

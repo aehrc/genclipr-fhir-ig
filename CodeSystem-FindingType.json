@@ -1,0 +1,46 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "FindingType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">patient-reported<a name=\"FindingType-patient-reported\"> </a></td><td>Patient Reported</td><td>An observation done by the patient, for example a symptom.</td></tr><tr><td style=\"white-space:nowrap\">laboratory-finding<a name=\"FindingType-laboratory-finding\"> </a></td><td>Laboratory Finding</td><td>Higher-level observations derived from laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria.</td></tr></table></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType",
+  "version": "0.1.0",
+  "name": "FindingType",
+  "title": "Finding Type",
+  "status": "active",
+  "date": "2021-04-09T16:31:20+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Extends the Observation Category codes to include additional categories.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "content": "complete",
+  "count": 2,
+  "concept": [
+    {
+      "code": "patient-reported",
+      "display": "Patient Reported",
+      "definition": "An observation done by the patient, for example a symptom."
+    },
+    {
+      "code": "laboratory-finding",
+      "display": "Laboratory Finding",
+      "definition": "Higher-level observations derived from laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria."
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "resourceType": "ValueSet",
+  "id": "ClinicalFindingTypeCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"http://terminology.hl7.org/2.1.0/CodeSystem-observation-category.html\"><code>http://terminology.hl7.org/CodeSystem/observation-category</code></a></li><li>Include all codes defined in <a href=\"CodeSystem-FindingType.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType</code></a></li></ul></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/ClinicalFindingTypeCodes",
+  "version": "0.1.0",
+  "name": "ClinicalFindingTypeCodes",
+  "title": "Finding Type Value Set",
+  "status": "active",
+  "date": "2021-04-09T16:31:20+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Finding types.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://terminology.hl7.org/CodeSystem/observation-category"
+      },
+      {
+        "system": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType"
+      }
+    ]
+  }
+}

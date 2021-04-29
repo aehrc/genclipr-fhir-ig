@@ -1,0 +1,44 @@
+{
+  "resourceType": "ValueSet",
+  "id": "EncounterTypeCodes",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-EncounterType.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType</code></a></li><li>Import all the codes that are contained in <a href=\"http://hl7.org/fhir/R4/valueset-encounter-type.html\">http://hl7.org/fhir/ValueSet/encounter-type</a></li></ul></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypeCodes",
+  "version": "0.1.0",
+  "name": "EncounterTypeCodes",
+  "title": "Encounter Type Value Set",
+  "status": "active",
+  "date": "2021-04-09T16:31:20+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Types of encounters captured in a genomics clinical picture FHIR repository.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "compose": {
+    "include": [
+      {
+        "system": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType"
+      },
+      {
+        "valueSet": [
+          "http://hl7.org/fhir/ValueSet/encounter-type"
+        ]
+      }
+    ]
+  }
+}

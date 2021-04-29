@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="EncounterType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">REF<a name="EncounterType-REF"> </a></td><td>referral</td><td>An initial encounter done by a specialist after referral.</td></tr><tr><td style="white-space:nowrap">PRI<a name="EncounterType-PRI"> </a></td><td>pre-investigation</td><td>An encounter done before genomic testing results are available.</td></tr><tr><td style="white-space:nowrap">PTI<a name="EncounterType-PTI"> </a></td><td>post-investigation</td><td>An encounter done after genomic testing results are available.</td></tr></table></div>
+  </text>
+  <url value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType"/>
+  <version value="0.1.0"/>
+  <name value="EncounterType"/>
+  <title value="Encounter Type"/>
+  <status value="active"/>
+  <date value="2021-04-09T16:31:20+10:00"/>
+  <publisher value="The Australian e-Health Research Centre"/>
+  <contact>
+    <name value="The Australian e-Health Research Centre"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://aehrc.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ontoserver-support@csiro.au"/>
+    </telecom>
+  </contact>
+  <description value="Type of encounters captured in a genomics clinical picture FHIR repository."/>
+  <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+  <content value="complete"/>
+  <count value="3"/>
+  <concept>
+    <code value="REF"/>
+    <display value="referral"/>
+    <definition value="An initial encounter done by a specialist after referral."/>
+  </concept>
+  <concept>
+    <code value="PRI"/>
+    <display value="pre-investigation"/>
+    <definition value="An encounter done before genomic testing results are available."/>
+  </concept>
+  <concept>
+    <code value="PTI"/>
+    <display value="post-investigation"/>
+    <definition value="An encounter done after genomic testing results are available."/>
+  </concept>
+</CodeSystem>

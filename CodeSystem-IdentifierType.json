@@ -1,0 +1,41 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "IdentifierType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/IdentifierType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RSI<a name=\"IdentifierType-RSI\"> </a></td><td>Research study identifier</td><td>An identifier given to a research study.</td></tr></table></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/IdentifierType",
+  "version": "0.1.0",
+  "name": "IdentifierType",
+  "title": "Identifier Type",
+  "status": "active",
+  "date": "2021-04-09T16:31:20+10:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Types of identifiers used in a genomics clinical picture FHIR repository.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "content": "complete",
+  "count": 1,
+  "concept": [
+    {
+      "code": "RSI",
+      "display": "Research study identifier",
+      "definition": "An identifier given to a research study."
+    }
+  ]
+}
