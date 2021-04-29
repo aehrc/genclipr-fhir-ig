@@ -1,6 +1,9 @@
-name: Continuous Integration
+name: Publish
 
-on: [push, pull_request]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   validate:
@@ -41,3 +44,8 @@ jobs:
         run: |
           chmod +x ./_genonce.sh
           ./_genonce.sh
+      - name: Publish IG
+        uses: JamesIves/github-pages-deploy-action@4.1.1
+        with:
+          branch: gh-pages
+          folder: output
