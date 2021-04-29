@@ -17,7 +17,7 @@
   fhir:ValueSet.name [ fhir:value "LateralityCodes"];
   fhir:ValueSet.title [ fhir:value "Laterality Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-09T16:31:20+10:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-04-29T06:11:02+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:ValueSet.contact [
      fhir:index 0;
