@@ -59,6 +59,9 @@ Observations that do not follow this pattern have their own profile, such as [bi
 
 A sign is defined as "a bodily feature of a patient that is observed in a physical examination and is deemed by the clinician to be of clinical significance". Note that in this IG we distinguish a `sign` from a `phenotype` or `phenotypic feature`. A sign is an _observation_ of a phenotype and therefore the repository is a collection of signs (and symptoms) rather than phenotypes (or phenotypic features). The [Sign](StructureDefinition-Sign.html) profile extends the [ExaminationFinding](StructureDefinition-ExaminationFinding.html) profile and the [Symptom](StructureDefinition-Symptom.html) profile extends the [PatientReportedFinding](StructureDefinition-PatientReportedFinding.html) profile. Both of these constrain the codes to be abnormal conditions, i.e., the code is bound to a value set that includes SNOMED CT disorders and HPO phenotypic abnormalities.
 
+#### Imaging Findings
+The [ImagingStudy](https://www.hl7.org/fhir/imagingstudy.html) resource in FHIR represents the content produced in a DICOM imaging study. An [ImagingFinding](StructureDefinition-ImagingFinding.html) in this IG represents an observation based on an imaging study. For example, a brain MRI might shows signs of a stroke and this can be represented as an imaging finding of _stroke-like picture_.
+
 #### Laboratory Findings
 A laboratory finding is defined as "a representation of a quality of a specimen that is the output of a laboratory test and that can support an inference to an assertion about some quality of the patient". In this IG, laboratory findings are observations that interpret raw test results and follow the same basic pattern as signs and symptoms but contain different modifiers that are relevant in this context. They can be referenced by a [DiagnosticReport](https://www.hl7.org/fhir/diagnosticreport.html), but this is not required.
 
