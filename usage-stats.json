@@ -14,6 +14,10 @@
   "profiles": {
     "Observation": [
       {
+        "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ImagingFinding",
+        "title": "Imaging Finding"
+      },
+      {
         "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding",
         "title": "Laboratory Finding"
       },

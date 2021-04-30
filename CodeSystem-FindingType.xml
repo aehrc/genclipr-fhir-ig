@@ -3,14 +3,14 @@
 <CodeSystem xmlns="http://hl7.org/fhir">
   <id value="FindingType"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">patient-reported<a name="FindingType-patient-reported"> </a></td><td>Patient Reported</td><td>An observation done by the patient, for example a symptom.</td></tr><tr><td style="white-space:nowrap">laboratory-finding<a name="FindingType-laboratory-finding"> </a></td><td>Laboratory Finding</td><td>Higher-level observations derived from laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria.</td></tr></table></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">patient-reported<a name="FindingType-patient-reported"> </a></td><td>Patient Reported</td><td>An observation done by the patient, for example a symptom.</td></tr><tr><td style="white-space:nowrap">laboratory-finding<a name="FindingType-laboratory-finding"> </a></td><td>Laboratory Finding</td><td>Observations derived from raw laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria.</td></tr><tr><td style="white-space:nowrap">imaging-finding<a name="FindingType-imaging-finding"> </a></td><td>Imaging Finding</td><td>Observations derived from imaging studies. For example, a brain MRI that shows signs of a stroke can be represented as an observation of a stroke-like picture.</td></tr></table></div>
   </text>
   <url value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/FindingType"/>
   <version value="0.1.0"/>
   <name value="FindingType"/>
   <title value="Finding Type"/>
   <status value="active"/>
-  <date value="2021-04-29T06:12:27+00:00"/>
+  <date value="2021-04-30T06:46:42+00:00"/>
   <publisher value="The Australian e-Health Research Centre"/>
   <contact>
     <name value="The Australian e-Health Research Centre"/>
@@ -26,7 +26,7 @@
   <description value="Extends the Observation Category codes to include additional categories."/>
   <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
   <content value="complete"/>
-  <count value="2"/>
+  <count value="3"/>
   <concept>
     <code value="patient-reported"/>
     <display value="Patient Reported"/>
@@ -35,6 +35,11 @@
   <concept>
     <code value="laboratory-finding"/>
     <display value="Laboratory Finding"/>
-    <definition value="Higher-level observations derived from laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria."/>
+    <definition value="Observations derived from raw laboratory observations. For example, a positive laboratory test for the presence of nitrite in urine can be represented as an observation of Nitrituria."/>
+  </concept>
+  <concept>
+    <code value="imaging-finding"/>
+    <display value="Imaging Finding"/>
+    <definition value="Observations derived from imaging studies. For example, a brain MRI that shows signs of a stroke can be represented as an observation of a stroke-like picture."/>
   </concept>
 </CodeSystem>

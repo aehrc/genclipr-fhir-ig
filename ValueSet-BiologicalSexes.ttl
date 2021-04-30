@@ -1,0 +1,71 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes> a fhir:ValueSet;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "BiologicalSexes"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><ul><li>Include these codes as defined in <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a><table class=\"none\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248152002\">248152002</a></td><td>Female</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248153007\">248153007</a></td><td>Male</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570681000036106\">32570681000036106</a></td><td>Indeterminate sex</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570691000036108\">32570691000036108</a></td><td>Intersex</td></tr><tr><td><a href=\"http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407374003\">407374003</a></td><td>Transsexual</td></tr></table></li></ul></div>"
+  ];
+  fhir:ValueSet.url [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes"];
+  fhir:ValueSet.version [ fhir:value "0.1.0"];
+  fhir:ValueSet.name [ fhir:value "BiologicalSexes"];
+  fhir:ValueSet.title [ fhir:value "Biological Sexes Value Set"];
+  fhir:ValueSet.status [ fhir:value "active"];
+  fhir:ValueSet.date [ fhir:value "2021-04-30T06:46:42+00:00"^^xsd:dateTime];
+  fhir:ValueSet.publisher [ fhir:value "The Australian e-Health Research Centre"];
+  fhir:ValueSet.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "The Australian e-Health Research Centre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://aehrc.com" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "ontoserver-support@csiro.au" ]
+     ]
+  ];
+  fhir:ValueSet.description [ fhir:value "SNOMED CT concepts for biological sex."];
+  fhir:ValueSet.copyright [ fhir:value "[Australian Genomics](https://www.australiangenomics.org.au)"];
+  fhir:ValueSet.compose [
+     fhir:ValueSet.compose.include [
+       fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
+       fhir:ValueSet.compose.include.concept [
+         fhir:index 0;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "248152002" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Female" ]
+       ], [
+         fhir:index 1;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "248153007" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Male" ]
+       ], [
+         fhir:index 2;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32570681000036106" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Indeterminate sex" ]
+       ], [
+         fhir:index 3;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "32570691000036108" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Intersex" ]
+       ], [
+         fhir:index 4;
+         fhir:ValueSet.compose.include.concept.code [ fhir:value "407374003" ];
+         fhir:ValueSet.compose.include.concept.display [ fhir:value "Transsexual" ]
+       ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

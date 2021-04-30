@@ -84,6 +84,13 @@
     "name": "GencliprResearchSubject"
   },
   {
+    "id": "ImagingFinding",
+    "type": "StructureDefinition",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ImagingFinding",
+    "version": "0.1.0",
+    "name": "ImagingFinding"
+  },
+  {
     "id": "LaboratoryFinding",
     "type": "StructureDefinition",
     "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding",
@@ -112,80 +119,59 @@
     "name": "Symptom"
   },
   {
-    "id": "AbnormalClinicalFindingCodes",
+    "id": "AbnormalClinicalFindings",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings",
     "version": "0.1.0",
-    "name": "AbnormalClinicalFindingCodes"
+    "name": "AbnormalClinicalFindings"
   },
   {
-    "id": "BiologicalSexCodes",
+    "id": "BiologicalSexes",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes",
     "version": "0.1.0",
-    "name": "BiologicalSexCodes"
+    "name": "BiologicalSexes"
   },
   {
-    "id": "BodySiteCodes",
+    "id": "BodySites",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySiteCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites",
     "version": "0.1.0",
-    "name": "BodySiteCodes"
+    "name": "BodySites"
   },
   {
-    "id": "ClinicalFindingCodes",
+    "id": "EncounterClasses",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/ClinicalFindingCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses",
     "version": "0.1.0",
-    "name": "ClinicalFindingCodes"
+    "name": "EncounterClasses"
   },
   {
-    "id": "ClinicalFindingTypeCodes",
+    "id": "EncounterTypes",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/ClinicalFindingTypeCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypes",
     "version": "0.1.0",
-    "name": "ClinicalFindingTypeCodes"
+    "name": "EncounterTypes"
   },
   {
-    "id": "EncounterClassCodes",
+    "id": "Lateralities",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClassCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities",
     "version": "0.1.0",
-    "name": "EncounterClassCodes"
+    "name": "Lateralities"
   },
   {
-    "id": "EncounterTypeCodes",
+    "id": "PresenceValues",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypeCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceValues",
     "version": "0.1.0",
-    "name": "EncounterTypeCodes"
+    "name": "PresenceValues"
   },
   {
-    "id": "IdentifierTypeCodes",
+    "id": "Severities",
     "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/IdentifierTypeCodes",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Severities",
     "version": "0.1.0",
-    "name": "IdentifierTypeCodes"
-  },
-  {
-    "id": "LateralityCodes",
-    "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/LateralityCodes",
-    "version": "0.1.0",
-    "name": "LateralityCodes"
-  },
-  {
-    "id": "PresenceCodes",
-    "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceCodes",
-    "version": "0.1.0",
-    "name": "PresenceCodes"
-  },
-  {
-    "id": "SeverityCodes",
-    "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/SeverityCodes",
-    "version": "0.1.0",
-    "name": "SeverityCodes"
+    "name": "Severities"
   }
 ]

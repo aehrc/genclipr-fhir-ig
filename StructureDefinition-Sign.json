@@ -20,7 +20,7 @@
   "name": "Sign",
   "title": "Sign",
   "status": "active",
-  "date": "2021-04-29T06:12:27+00:00",
+  "date": "2021-04-30T06:46:42+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -836,7 +836,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes"
+          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings"
         },
         "mapping": [
           {
@@ -1255,7 +1255,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceCodes"
+          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceValues"
         },
         "mapping": [
           {
@@ -1471,7 +1471,7 @@
         "isSummary": false,
         "binding": {
           "strength": "required",
-          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySiteCodes"
+          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites"
         },
         "mapping": [
           {
@@ -3044,7 +3044,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/LateralityCodes"
+          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities"
         },
         "mapping": [
           {
@@ -3566,7 +3566,7 @@
         "isSummary": true,
         "binding": {
           "strength": "required",
-          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/SeverityCodes"
+          "valueSet": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Severities"
         },
         "mapping": [
           {

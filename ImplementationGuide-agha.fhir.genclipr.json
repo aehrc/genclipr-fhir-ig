@@ -10,7 +10,7 @@
   "name": "GenomicsClinicalPictureRepositoryIG",
   "title": "Genomics Clinical Picture Repository Implementation Guide",
   "status": "draft",
-  "date": "2021-04-29T06:12:27+00:00",
+  "date": "2021-04-30T06:46:42+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -399,6 +399,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/ImagingFinding"
+        },
+        "name": "Imaging Finding",
+        "description": "An observation based on the result of an imaging study.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/LaboratoryFinding"
         },
         "name": "Laboratory Finding",
@@ -455,7 +469,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/AbnormalClinicalFindingCodes"
+          "reference": "ValueSet/AbnormalClinicalFindings"
         },
         "name": "Abnormal Clinical Findings Value Set",
         "description": "Abnormal clinical findings from SNOMED CT and HPO.",
@@ -469,9 +483,9 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/BiologicalSexCodes"
+          "reference": "ValueSet/BiologicalSexes"
         },
-        "name": "Biological Sex Value Set",
+        "name": "Biological Sexes Value Set",
         "description": "SNOMED CT concepts for biological sex.",
         "exampleBoolean": false
       },
@@ -483,7 +497,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/BodySiteCodes"
+          "reference": "ValueSet/BodySites"
         },
         "name": "Body Sites Value Set",
         "description": "Body sites from SNOMED CT.",
@@ -497,35 +511,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/ClinicalFindingCodes"
-        },
-        "name": "Clinical Findings Value Set",
-        "description": "Clinical findings from SNOMED CT.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/ClinicalFindingTypeCodes"
-        },
-        "name": "Finding Type Value Set",
-        "description": "Finding types.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/EncounterClassCodes"
+          "reference": "ValueSet/EncounterClasses"
         },
         "name": "Encounter Class Value Set",
         "description": "Classes of encounters captured in a genomics clinical picture FHIR repository.",
@@ -539,7 +525,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/EncounterTypeCodes"
+          "reference": "ValueSet/EncounterTypes"
         },
         "name": "Encounter Type Value Set",
         "description": "Types of encounters captured in a genomics clinical picture FHIR repository.",
@@ -553,21 +539,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/IdentifierTypeCodes"
-        },
-        "name": "Identifier Types Value Set",
-        "description": "Identifier types used in this IG.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/LateralityCodes"
+          "reference": "ValueSet/Lateralities"
         },
         "name": "Laterality Value Set",
         "description": "Codes used to describe the laterality of a body structure.",
@@ -581,7 +553,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/PresenceCodes"
+          "reference": "ValueSet/PresenceValues"
         },
         "name": "Presence Value Set",
         "description": "Presence / absence values from SNOMED CT.",
@@ -595,7 +567,7 @@
           }
         ],
         "reference": {
-          "reference": "ValueSet/SeverityCodes"
+          "reference": "ValueSet/Severities"
         },
         "name": "Severity Value Set",
         "description": "Codes used to describe the severity of a finding.",

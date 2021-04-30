@@ -27,7 +27,7 @@
   fhir:StructureDefinition.name [ fhir:value "LaboratoryFinding"];
   fhir:StructureDefinition.title [ fhir:value "Laboratory Finding"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-29T06:12:27+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-30T06:46:42+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -937,8 +937,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes";
-           fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes>
+           fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings";
+           fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings>
          ]
        ];
        fhir:ElementDefinition.mapping [
@@ -1385,8 +1385,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceCodes";
-           fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceCodes>
+           fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceValues";
+           fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceValues>
          ]
        ];
        fhir:ElementDefinition.mapping [

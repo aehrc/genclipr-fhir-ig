@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GenomicsClinicalPictureRepositoryIG"];
   fhir:ImplementationGuide.title [ fhir:value "Genomics Clinical Picture Repository Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-04-29T06:12:27+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-04-30T06:46:42+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
@@ -386,6 +386,20 @@
          fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ImagingFinding>;
+         fhir:Reference.reference [ fhir:value "StructureDefinition/ImagingFinding" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Imaging Finding" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "An observation based on the result of an imaging study." ];
+       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
+     ], [
+       fhir:index 8;
+       fhir:Element.extension [
+         fhir:index 0;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
+         fhir:Extension.valueString [ fhir:value "StructureDefinition:resource" ]
+       ];
+       fhir:ImplementationGuide.definition.resource.reference [
          fhir:link <http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding>;
          fhir:Reference.reference [ fhir:value "StructureDefinition/LaboratoryFinding" ]
        ];
@@ -393,7 +407,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "An observation based on the result of a laboratory test." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 8;
+       fhir:index 9;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -407,7 +421,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A sign is a bodily feature of a patient observed by a clinician which is deemed to be of clinical relevance. It records a phenotype that is clinically abnormal." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 9;
+       fhir:index 10;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -421,7 +435,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A symptom is an observation made by the patient and is hypothesized to be a realization of a disease." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 10;
+       fhir:index 11;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -435,20 +449,6 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "A research study associated with an encounter." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 11;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindingCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/AbnormalClinicalFindingCodes" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Abnormal Clinical Findings Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abnormal clinical findings from SNOMED CT and HPO." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
        fhir:index 12;
        fhir:Element.extension [
          fhir:index 0;
@@ -456,11 +456,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/BiologicalSexCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings>;
+         fhir:Reference.reference [ fhir:value "ValueSet/AbnormalClinicalFindings" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Biological Sex Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNOMED CT concepts for biological sex." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Abnormal Clinical Findings Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Abnormal clinical findings from SNOMED CT and HPO." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 13;
@@ -470,11 +470,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySiteCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/BodySiteCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/BiologicalSexes" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Body Sites Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Body sites from SNOMED CT." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Biological Sexes Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "SNOMED CT concepts for biological sex." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 14;
@@ -484,11 +484,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/ClinicalFindingCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/ClinicalFindingCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites>;
+         fhir:Reference.reference [ fhir:value "ValueSet/BodySites" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Clinical Findings Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Clinical findings from SNOMED CT." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Body Sites Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Body sites from SNOMED CT." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 15;
@@ -498,11 +498,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/ClinicalFindingTypeCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/ClinicalFindingTypeCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses>;
+         fhir:Reference.reference [ fhir:value "ValueSet/EncounterClasses" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Finding Type Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Finding types." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter Class Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Classes of encounters captured in a genomics clinical picture FHIR repository." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 16;
@@ -512,11 +512,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClassCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/EncounterClassCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypes>;
+         fhir:Reference.reference [ fhir:value "ValueSet/EncounterTypes" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter Class Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Classes of encounters captured in a genomics clinical picture FHIR repository." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter Type Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Types of encounters captured in a genomics clinical picture FHIR repository." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 17;
@@ -526,11 +526,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypeCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/EncounterTypeCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Lateralities" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Encounter Type Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Types of encounters captured in a genomics clinical picture FHIR repository." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laterality Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes used to describe the laterality of a body structure." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 18;
@@ -540,11 +540,11 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/IdentifierTypeCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/IdentifierTypeCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceValues>;
+         fhir:Reference.reference [ fhir:value "ValueSet/PresenceValues" ]
        ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Identifier Types Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Identifier types used in this IG." ];
+       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Presence Value Set" ];
+       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Presence / absence values from SNOMED CT." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
        fhir:index 19;
@@ -554,42 +554,14 @@
          fhir:Extension.valueString [ fhir:value "ValueSet" ]
        ];
        fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/LateralityCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/LateralityCodes" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Laterality Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes used to describe the laterality of a body structure." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 20;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/PresenceCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/PresenceCodes" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.name [ fhir:value "Presence Value Set" ];
-       fhir:ImplementationGuide.definition.resource.description [ fhir:value "Presence / absence values from SNOMED CT." ];
-       fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
-     ], [
-       fhir:index 21;
-       fhir:Element.extension [
-         fhir:index 0;
-         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
-         fhir:Extension.valueString [ fhir:value "ValueSet" ]
-       ];
-       fhir:ImplementationGuide.definition.resource.reference [
-         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/SeverityCodes>;
-         fhir:Reference.reference [ fhir:value "ValueSet/SeverityCodes" ]
+         fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Severities>;
+         fhir:Reference.reference [ fhir:value "ValueSet/Severities" ]
        ];
        fhir:ImplementationGuide.definition.resource.name [ fhir:value "Severity Value Set" ];
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Codes used to describe the severity of a finding." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 22;
+       fhir:index 20;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -603,7 +575,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Class of encounters captured in a genomics clinical picture FHIR repository." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 23;
+       fhir:index 21;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -617,7 +589,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Type of encounters captured in a genomics clinical picture FHIR repository." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 24;
+       fhir:index 22;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];
@@ -631,7 +603,7 @@
        fhir:ImplementationGuide.definition.resource.description [ fhir:value "Extends the Observation Category codes to include additional categories." ];
        fhir:ImplementationGuide.definition.resource.exampleBoolean [ fhir:value "false"^^xsd:boolean ]
      ], [
-       fhir:index 25;
+       fhir:index 23;
        fhir:Element.extension [
          fhir:index 0;
          fhir:Extension.url [ fhir:value "http://hl7.org/fhir/tools/StructureDefinition/resource-information" ];

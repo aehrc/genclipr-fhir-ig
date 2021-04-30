@@ -11,7 +11,7 @@
   <name value="GenomicsClinicalPictureRepositoryIG"/>
   <title value="Genomics Clinical Picture Repository Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-04-29T06:12:27+00:00"/>
+  <date value="2021-04-30T06:46:42+00:00"/>
   <publisher value="The Australian e-Health Research Centre"/>
   <contact>
     <name value="The Australian e-Health Research Centre"/>
@@ -269,6 +269,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/ImagingFinding"/>
+      </reference>
+      <name value="Imaging Finding"/>
+      <description value="An observation based on the result of an imaging study."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/LaboratoryFinding"/>
       </reference>
       <name value="Laboratory Finding"/>
@@ -313,7 +324,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/AbnormalClinicalFindingCodes"/>
+        <reference value="ValueSet/AbnormalClinicalFindings"/>
       </reference>
       <name value="Abnormal Clinical Findings Value Set"/>
       <description value="Abnormal clinical findings from SNOMED CT and HPO."/>
@@ -324,9 +335,9 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BiologicalSexCodes"/>
+        <reference value="ValueSet/BiologicalSexes"/>
       </reference>
-      <name value="Biological Sex Value Set"/>
+      <name value="Biological Sexes Value Set"/>
       <description value="SNOMED CT concepts for biological sex."/>
       <exampleBoolean value="false"/>
     </resource>
@@ -335,7 +346,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BodySiteCodes"/>
+        <reference value="ValueSet/BodySites"/>
       </reference>
       <name value="Body Sites Value Set"/>
       <description value="Body sites from SNOMED CT."/>
@@ -346,29 +357,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/ClinicalFindingCodes"/>
-      </reference>
-      <name value="Clinical Findings Value Set"/>
-      <description value="Clinical findings from SNOMED CT."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/ClinicalFindingTypeCodes"/>
-      </reference>
-      <name value="Finding Type Value Set"/>
-      <description value="Finding types."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/EncounterClassCodes"/>
+        <reference value="ValueSet/EncounterClasses"/>
       </reference>
       <name value="Encounter Class Value Set"/>
       <description value="Classes of encounters captured in a genomics clinical picture FHIR repository."/>
@@ -379,7 +368,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/EncounterTypeCodes"/>
+        <reference value="ValueSet/EncounterTypes"/>
       </reference>
       <name value="Encounter Type Value Set"/>
       <description value="Types of encounters captured in a genomics clinical picture FHIR repository."/>
@@ -390,18 +379,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/IdentifierTypeCodes"/>
-      </reference>
-      <name value="Identifier Types Value Set"/>
-      <description value="Identifier types used in this IG."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="ValueSet"/>
-      </extension>
-      <reference>
-        <reference value="ValueSet/LateralityCodes"/>
+        <reference value="ValueSet/Lateralities"/>
       </reference>
       <name value="Laterality Value Set"/>
       <description value="Codes used to describe the laterality of a body structure."/>
@@ -412,7 +390,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/PresenceCodes"/>
+        <reference value="ValueSet/PresenceValues"/>
       </reference>
       <name value="Presence Value Set"/>
       <description value="Presence / absence values from SNOMED CT."/>
@@ -423,7 +401,7 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/SeverityCodes"/>
+        <reference value="ValueSet/Severities"/>
       </reference>
       <name value="Severity Value Set"/>
       <description value="Codes used to describe the severity of a finding."/>
