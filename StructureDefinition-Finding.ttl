@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "Finding"];
   fhir:StructureDefinition.title [ fhir:value "Finding"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-04-30T06:46:42+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-04-30T06:47:17+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

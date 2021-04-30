@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "EncounterType"];
   fhir:CodeSystem.title [ fhir:value "Encounter Type"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-04-30T06:46:42+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-04-30T06:47:17+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:CodeSystem.contact [
      fhir:index 0;
