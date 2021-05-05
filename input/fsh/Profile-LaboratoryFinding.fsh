@@ -18,6 +18,8 @@ Title: "Laboratory Finding"
 Description: "An observation based on the result of a laboratory test."
 * category = FindingType#laboratory-finding
 * bodySite 0..0
+* interpretation MS
+* interpretation from TestInterpretationValues (required)
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
