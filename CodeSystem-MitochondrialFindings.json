@@ -1,0 +1,51 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "MitochondrialFindings",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MITO:002<a name=\"MitochondrialFindings-MITO.58002\"> </a></td><td>Reduced COX staining</td><td>Reduced cytochrome oxidase staining.</td></tr><tr><td style=\"white-space:nowrap\">MITO:003<a name=\"MitochondrialFindings-MITO.58003\"> </a></td><td>SDH positive blood vessels</td><td>Succinic dehydrogenase positive blood vessels.</td></tr><tr><td style=\"white-space:nowrap\">MITO:004<a name=\"MitochondrialFindings-MITO.58004\"> </a></td><td>Stroke-like picture on MRI</td><td>Stroke-like picture on MRI.</td></tr></table></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings",
+  "version": "0.1.0",
+  "name": "MitochondrialFindings",
+  "title": "Mitochondrial Findings",
+  "status": "active",
+  "date": "2021-05-05T06:47:37+00:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Mitochondrial-related findings that are not in HPO or SNOMED CT.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "content": "complete",
+  "count": 3,
+  "concept": [
+    {
+      "code": "MITO:002",
+      "display": "Reduced COX staining",
+      "definition": "Reduced cytochrome oxidase staining."
+    },
+    {
+      "code": "MITO:003",
+      "display": "SDH positive blood vessels",
+      "definition": "Succinic dehydrogenase positive blood vessels."
+    },
+    {
+      "code": "MITO:004",
+      "display": "Stroke-like picture on MRI",
+      "definition": "Stroke-like picture on MRI."
+    }
+  ]
+}

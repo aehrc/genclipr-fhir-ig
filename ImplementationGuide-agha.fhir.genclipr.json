@@ -10,7 +10,7 @@
   "name": "GenomicsClinicalPictureRepositoryIG",
   "title": "Genomics Clinical Picture Repository Implementation Guide",
   "status": "draft",
-  "date": "2021-04-30T06:47:17+00:00",
+  "date": "2021-05-05T06:47:37+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -472,7 +472,7 @@
           "reference": "ValueSet/AbnormalClinicalFindings"
         },
         "name": "Abnormal Clinical Findings Value Set",
-        "description": "Abnormal clinical findings from SNOMED CT and HPO.",
+        "description": "Abnormal clinical findings.",
         "exampleBoolean": false
       },
       {
@@ -541,7 +541,7 @@
         "reference": {
           "reference": "ValueSet/Lateralities"
         },
-        "name": "Laterality Value Set",
+        "name": "Lateralities Value Set",
         "description": "Codes used to describe the laterality of a body structure.",
         "exampleBoolean": false
       },
@@ -571,6 +571,20 @@
         },
         "name": "Severity Value Set",
         "description": "Codes used to describe the severity of a finding.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/TestInterpretationValues"
+        },
+        "name": "Test Interpretation Value Set",
+        "description": "Test interpretation values from SNOMED CT.",
         "exampleBoolean": false
       },
       {
@@ -627,6 +641,20 @@
         },
         "name": "Identifier Type",
         "description": "Types of identifiers used in a genomics clinical picture FHIR repository.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/MitochondrialFindings"
+        },
+        "name": "Mitochondrial Findings",
+        "description": "Mitochondrial-related findings that are not in HPO or SNOMED CT.",
         "exampleBoolean": false
       }
     ],

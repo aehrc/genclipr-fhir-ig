@@ -15,9 +15,9 @@
   fhir:ValueSet.url [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "Lateralities"];
-  fhir:ValueSet.title [ fhir:value "Laterality Value Set"];
+  fhir:ValueSet.title [ fhir:value "Lateralities Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-30T06:47:17+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-05T06:47:37+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:ValueSet.contact [
      fhir:index 0;

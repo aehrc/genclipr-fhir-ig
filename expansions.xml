@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="a8707fe0-6977-4f2b-8b61-029a790a95a9"/>
+  <id value="0dc9cd77-8e1a-45f3-8ccf-f2463cb614c1"/>
   <meta>
-    <lastUpdated value="2021-04-30T06:47:17.714+00:00"/>
+    <lastUpdated value="2021-05-05T06:47:37.492+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -81,7 +81,7 @@
         <name value="BiologicalSexes"/>
         <title value="Biological Sexes Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -97,8 +97,8 @@
         <description value="SNOMED CT concepts for biological sex."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:de0c3182-e06e-49a9-b860-f3452e3e8cb2"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:2daacbdf-4ac8-41ec-903d-4a0d336f67be"/>
+          <timestamp value="2021-05-05T06:48:04+00:00"/>
           <total value="5"/>
           <parameter>
             <name value="excludeNested"/>
@@ -8176,7 +8176,7 @@
         <name value="BodySites"/>
         <title value="Body Sites Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -8198,8 +8198,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:866849be-0ba7-45ee-8cd0-032175937301"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:5a9f1f75-7a20-4f91-9f9e-46fef768536b"/>
+          <timestamp value="2021-05-05T06:48:05+00:00"/>
           <total value="1000"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13373,7 +13373,7 @@
         <name value="EncounterClasses"/>
         <title value="Encounter Class Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -13389,8 +13389,8 @@
         <description value="Classes of encounters captured in a genomics clinical picture FHIR repository."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:8e3d5d49-c7f1-4b37-981c-f3f8d4567f58"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:17d2120b-a5a4-4886-a535-bcbbdffd84a3"/>
+          <timestamp value="2021-05-05T06:48:05+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13603,7 +13603,7 @@
         <name value="EncounterTypes"/>
         <title value="Encounter Type Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -13619,8 +13619,8 @@
         <description value="Types of encounters captured in a genomics clinical picture FHIR repository."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:e01a39c8-3be8-44c6-9d74-fac96d06dc96"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:c4955c77-4183-445f-8824-ae49d783f577"/>
+          <timestamp value="2021-05-05T06:48:05+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13750,9 +13750,9 @@
         <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities"/>
         <version value="0.1.0"/>
         <name value="Lateralities"/>
-        <title value="Laterality Value Set"/>
+        <title value="Lateralities Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -13768,8 +13768,8 @@
         <description value="Codes used to describe the laterality of a body structure."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:f2cd2f66-d1c5-47a0-ad58-cf10c531be38"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:5ccd2fd4-8b8d-4b43-bd02-c0962bb63dc0"/>
+          <timestamp value="2021-05-05T06:48:05+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -13874,7 +13874,7 @@
         <name value="PresenceValues"/>
         <title value="Presence Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -13890,8 +13890,8 @@
         <description value="Presence / absence values from SNOMED CT."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:1fe5664b-5eda-4045-b0f1-ddc5d05e5eaa"/>
-          <timestamp value="2021-04-30T06:47:37+00:00"/>
+          <identifier value="urn:uuid:0f2576a8-6ab6-4c12-8166-8b4a6cb2d851"/>
+          <timestamp value="2021-05-05T06:48:06+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14020,7 +14020,7 @@
         <name value="Severities"/>
         <title value="Severity Value Set"/>
         <status value="active"/>
-        <date value="2021-04-30T06:47:17+00:00"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -14039,8 +14039,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:71e39535-f027-481e-a2c2-1ffd4968eb36"/>
-          <timestamp value="2021-04-30T06:47:38+00:00"/>
+          <identifier value="urn:uuid:4b66354e-ec2d-4588-b69b-f8b771e399e8"/>
+          <timestamp value="2021-05-05T06:48:06+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -14088,6 +14088,115 @@
             <system value="http://snomed.info/sct"/>
             <code value="442452003"/>
             <display value="Life threatening severity"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/TestInterpretationValues"/>
+    <resource>
+      <ValueSet>
+        <id value="TestInterpretationValues"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 3 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
+            <p>All codes from system 
+              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+                <code>http://snomed.info/sct</code>
+              </a>
+            </p>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-62482003"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=62482003">62482003</a>
+                </td>
+                <td>Low</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-11896004"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11896004">11896004</a>
+                </td>
+                <td>Intermediate</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-75540009"> </a>
+                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=75540009">75540009</a>
+                </td>
+                <td>High</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/TestInterpretationValues"/>
+        <version value="0.1.0"/>
+        <name value="TestInterpretationValues"/>
+        <title value="Test Interpretation Value Set"/>
+        <status value="active"/>
+        <date value="2021-05-05T06:47:37+00:00"/>
+        <publisher value="The Australian e-Health Research Centre"/>
+        <contact>
+          <name value="The Australian e-Health Research Centre"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://aehrc.com"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="ontoserver-support@csiro.au"/>
+          </telecom>
+        </contact>
+        <description value="Test interpretation values from SNOMED CT."/>
+        <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+        <expansion>
+          <identifier value="urn:uuid:acfbcc42-8946-490e-903d-4abae568689a"/>
+          <timestamp value="2021-05-05T06:48:07+00:00"/>
+          <total value="3"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+          </parameter>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="62482003"/>
+            <display value="Low"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="11896004"/>
+            <display value="Intermediate"/>
+          </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="75540009"/>
+            <display value="High"/>
           </contains>
         </expansion>
       </ValueSet>

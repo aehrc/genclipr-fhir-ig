@@ -3,14 +3,14 @@
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="AbnormalClinicalFindings"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.fhir</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  64572001 (Disease)</li></ul></div>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-MitochondrialFindings.html"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings</code></a></li><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.fhir</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a> where concept  descends from  64572001 (Disease)</li></ul></div>
   </text>
   <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings"/>
   <version value="0.1.0"/>
   <name value="AbnormalClinicalFindings"/>
   <title value="Abnormal Clinical Findings Value Set"/>
   <status value="active"/>
-  <date value="2021-04-30T06:47:17+00:00"/>
+  <date value="2021-05-05T06:47:37+00:00"/>
   <publisher value="The Australian e-Health Research Centre"/>
   <contact>
     <name value="The Australian e-Health Research Centre"/>
@@ -23,9 +23,12 @@
       <value value="ontoserver-support@csiro.au"/>
     </telecom>
   </contact>
-  <description value="Abnormal clinical findings from SNOMED CT and HPO."/>
+  <description value="Abnormal clinical findings."/>
   <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
   <compose>
+    <include>
+      <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings"/>
+    </include>
     <include>
       <system value="http://purl.obolibrary.org/obo/hp.fhir"/>
       <filter>

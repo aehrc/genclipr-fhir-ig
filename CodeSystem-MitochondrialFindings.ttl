@@ -1,0 +1,62 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings> a fhir:CodeSystem;
+  fhir:nodeRole fhir:treeRoot;
+  fhir:Resource.id [ fhir:value "MitochondrialFindings"];
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ];
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">MITO:002<a name=\"MitochondrialFindings-MITO.58002\"> </a></td><td>Reduced COX staining</td><td>Reduced cytochrome oxidase staining.</td></tr><tr><td style=\"white-space:nowrap\">MITO:003<a name=\"MitochondrialFindings-MITO.58003\"> </a></td><td>SDH positive blood vessels</td><td>Succinic dehydrogenase positive blood vessels.</td></tr><tr><td style=\"white-space:nowrap\">MITO:004<a name=\"MitochondrialFindings-MITO.58004\"> </a></td><td>Stroke-like picture on MRI</td><td>Stroke-like picture on MRI.</td></tr></table></div>"
+  ];
+  fhir:CodeSystem.url [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings"];
+  fhir:CodeSystem.version [ fhir:value "0.1.0"];
+  fhir:CodeSystem.name [ fhir:value "MitochondrialFindings"];
+  fhir:CodeSystem.title [ fhir:value "Mitochondrial Findings"];
+  fhir:CodeSystem.status [ fhir:value "active"];
+  fhir:CodeSystem.date [ fhir:value "2021-05-05T06:47:37+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.publisher [ fhir:value "The Australian e-Health Research Centre"];
+  fhir:CodeSystem.contact [
+     fhir:index 0;
+     fhir:ContactDetail.name [ fhir:value "The Australian e-Health Research Centre" ];
+     fhir:ContactDetail.telecom [
+       fhir:index 0;
+       fhir:ContactPoint.system [ fhir:value "url" ];
+       fhir:ContactPoint.value [ fhir:value "https://aehrc.com" ]
+     ], [
+       fhir:index 1;
+       fhir:ContactPoint.system [ fhir:value "email" ];
+       fhir:ContactPoint.value [ fhir:value "ontoserver-support@csiro.au" ]
+     ]
+  ];
+  fhir:CodeSystem.description [ fhir:value "Mitochondrial-related findings that are not in HPO or SNOMED CT."];
+  fhir:CodeSystem.copyright [ fhir:value "[Australian Genomics](https://www.australiangenomics.org.au)"];
+  fhir:CodeSystem.content [ fhir:value "complete"];
+  fhir:CodeSystem.count [ fhir:value "3"^^xsd:nonNegativeInteger];
+  fhir:CodeSystem.concept [
+     fhir:index 0;
+     fhir:CodeSystem.concept.code [ fhir:value "MITO:002" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Reduced COX staining" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Reduced cytochrome oxidase staining." ]
+  ], [
+     fhir:index 1;
+     fhir:CodeSystem.concept.code [ fhir:value "MITO:003" ];
+     fhir:CodeSystem.concept.display [ fhir:value "SDH positive blood vessels" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Succinic dehydrogenase positive blood vessels." ]
+  ], [
+     fhir:index 2;
+     fhir:CodeSystem.concept.code [ fhir:value "MITO:004" ];
+     fhir:CodeSystem.concept.display [ fhir:value "Stroke-like picture on MRI" ];
+     fhir:CodeSystem.concept.definition [ fhir:value "Stroke-like picture on MRI." ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings.ttl> a owl:Ontology;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -10,14 +10,14 @@
   fhir:Resource.id [ fhir:value "AbnormalClinicalFindings"];
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ];
-     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.fhir</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  64572001 (Disease)</li></ul></div>"
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-MitochondrialFindings.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings</code></a></li><li>Include codes from <code>http://purl.obolibrary.org/obo/hp.fhir</code> where concept  descends from  HP:0000118</li><li>Include codes from <a href=\"http://www.snomed.org/\"><code>http://snomed.info/sct</code></a> where concept  descends from  64572001 (Disease)</li></ul></div>"
   ];
   fhir:ValueSet.url [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/AbnormalClinicalFindings"];
   fhir:ValueSet.version [ fhir:value "0.1.0"];
   fhir:ValueSet.name [ fhir:value "AbnormalClinicalFindings"];
   fhir:ValueSet.title [ fhir:value "Abnormal Clinical Findings Value Set"];
   fhir:ValueSet.status [ fhir:value "active"];
-  fhir:ValueSet.date [ fhir:value "2021-04-30T06:47:17+00:00"^^xsd:dateTime];
+  fhir:ValueSet.date [ fhir:value "2021-05-05T06:47:37+00:00"^^xsd:dateTime];
   fhir:ValueSet.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:ValueSet.contact [
      fhir:index 0;
@@ -32,11 +32,14 @@
        fhir:ContactPoint.value [ fhir:value "ontoserver-support@csiro.au" ]
      ]
   ];
-  fhir:ValueSet.description [ fhir:value "Abnormal clinical findings from SNOMED CT and HPO."];
+  fhir:ValueSet.description [ fhir:value "Abnormal clinical findings."];
   fhir:ValueSet.copyright [ fhir:value "[Australian Genomics](https://www.australiangenomics.org.au)"];
   fhir:ValueSet.compose [
      fhir:ValueSet.compose.include [
        fhir:index 0;
+       fhir:ValueSet.compose.include.system [ fhir:value "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings" ]
+     ], [
+       fhir:index 1;
        fhir:ValueSet.compose.include.system [ fhir:value "http://purl.obolibrary.org/obo/hp.fhir" ];
        fhir:ValueSet.compose.include.filter [
          fhir:index 0;
@@ -45,7 +48,7 @@
          fhir:ValueSet.compose.include.filter.value [ fhir:value "HP:0000118" ]
        ]
      ], [
-       fhir:index 1;
+       fhir:index 2;
        fhir:ValueSet.compose.include.system [ fhir:value "http://snomed.info/sct" ];
        fhir:ValueSet.compose.include.filter [
          fhir:index 0;

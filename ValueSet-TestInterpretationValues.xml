@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="TestInterpretationValues"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=62482003">62482003</a></td><td>Low</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11896004">11896004</a></td><td>Intermediate</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=75540009">75540009</a></td><td>High</td></tr></table></li></ul></div>
+  </text>
+  <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/TestInterpretationValues"/>
+  <version value="0.1.0"/>
+  <name value="TestInterpretationValues"/>
+  <title value="Test Interpretation Value Set"/>
+  <status value="active"/>
+  <date value="2021-05-05T06:47:37+00:00"/>
+  <publisher value="The Australian e-Health Research Centre"/>
+  <contact>
+    <name value="The Australian e-Health Research Centre"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://aehrc.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ontoserver-support@csiro.au"/>
+    </telecom>
+  </contact>
+  <description value="Test interpretation values from SNOMED CT."/>
+  <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="62482003"/>
+        <display value="Low"/>
+      </concept>
+      <concept>
+        <code value="11896004"/>
+        <display value="Intermediate"/>
+      </concept>
+      <concept>
+        <code value="75540009"/>
+        <display value="High"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

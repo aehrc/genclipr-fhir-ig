@@ -28,6 +28,13 @@
     "name": "IdentifierType"
   },
   {
+    "id": "MitochondrialFindings",
+    "type": "CodeSystem",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/MitochondrialFindings",
+    "version": "0.1.0",
+    "name": "MitochondrialFindings"
+  },
+  {
     "id": "agha.fhir.genclipr",
     "type": "ImplementationGuide",
     "url": "http://aehrc.github.io/genclipr-fhir-ig/ImplementationGuide/agha.fhir.genclipr",
@@ -173,5 +180,12 @@
     "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Severities",
     "version": "0.1.0",
     "name": "Severities"
+  },
+  {
+    "id": "TestInterpretationValues",
+    "type": "ValueSet",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/TestInterpretationValues",
+    "version": "0.1.0",
+    "name": "TestInterpretationValues"
   }
 ]

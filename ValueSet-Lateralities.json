@@ -8,9 +8,9 @@
   "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities",
   "version": "0.1.0",
   "name": "Lateralities",
-  "title": "Laterality Value Set",
+  "title": "Lateralities Value Set",
   "status": "active",
-  "date": "2021-04-30T06:47:17+00:00",
+  "date": "2021-05-05T06:47:37+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
