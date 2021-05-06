@@ -17,7 +17,7 @@
   fhir:ImplementationGuide.name [ fhir:value "GenomicsClinicalPictureRepositoryIG"];
   fhir:ImplementationGuide.title [ fhir:value "Genomics Clinical Picture Repository Implementation Guide"];
   fhir:ImplementationGuide.status [ fhir:value "draft"];
-  fhir:ImplementationGuide.date [ fhir:value "2021-05-05T06:48:00+00:00"^^xsd:dateTime];
+  fhir:ImplementationGuide.date [ fhir:value "2021-05-06T22:49:05+00:00"^^xsd:dateTime];
   fhir:ImplementationGuide.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:ImplementationGuide.contact [
      fhir:index 0;
