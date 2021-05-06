@@ -5,6 +5,7 @@ Title: "Examination Finding"
 Description: "An observation made by a clinician or patient that can be normal or abnormal."
 * bodySite MS
 * bodySite from BodySites (required)
+* interpretation 0..0
 * component ^slicing.discriminator.type = #pattern
 * component ^slicing.discriminator.path = "code"
 * component ^slicing.rules = #open
