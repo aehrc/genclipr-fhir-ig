@@ -17,7 +17,7 @@
   fhir:CodeSystem.name [ fhir:value "FindingType"];
   fhir:CodeSystem.title [ fhir:value "Finding Type"];
   fhir:CodeSystem.status [ fhir:value "active"];
-  fhir:CodeSystem.date [ fhir:value "2021-05-06T22:49:05+00:00"^^xsd:dateTime];
+  fhir:CodeSystem.date [ fhir:value "2021-05-06T22:50:15+00:00"^^xsd:dateTime];
   fhir:CodeSystem.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:CodeSystem.contact [
      fhir:index 0;
