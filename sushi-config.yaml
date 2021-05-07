@@ -21,9 +21,16 @@ publisher:
 dependencies:
   hl7.fhir.uv.genomics-reporting: 1.0.0
 
+pages: 
+  index.md:
+    title: Overview
+  downloads.md:
+    title: Downloads
+
 # ╭────────────────────────────────────────────menu.xml────────────────────────────────────────────╮
 # │  To use a provided input/includes/menu.xml file, delete the "menu" property below.             │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 menu:
   Home: index.html
+  Download: downloads.html
   Artifacts: artifacts.html
