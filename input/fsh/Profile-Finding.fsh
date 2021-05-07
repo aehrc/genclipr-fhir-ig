@@ -14,6 +14,8 @@ Description: "An observation about a patient that can be normal or abnormal and 
 * encounter 1..1
 * encounter only Reference(GencliprEncounter)
 * value[x] from PresenceValues (required)
+* bodySite MS
+* bodySite from BODYSITES (required)
 * focus 0..0
 * referenceRange 0..0
 * hasMember 0..0
