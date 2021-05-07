@@ -3,7 +3,7 @@
 
 err = 1, warn = 12, info = 0
 IG Publisher Version: 1.1.68
-Generated Fri May 07 04:26:10 UTC 2021. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
+Generated Fri May 07 07:09:05 UTC 2021. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
 
  Build Errors : 0 / 0 / 0
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass : 0 / 0 / 1
@@ -26,7 +26,6 @@ Generated Fri May 07 04:26:10 UTC 2021. FHIR version 4.0.1 for agha.fhir.genclip
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Symptom : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-AbnormalClinicalFindings : 1 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BiologicalSexes : 0 / 0 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BodySites : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterClasses : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterTypes : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-Lateralities : 0 / 0 / 1
@@ -88,8 +87,6 @@ INFORMATION: ValueSet/AbnormalClinicalFindings: ValueSet/AbnormalClinicalFinding
 ERROR: ValueSet.where(id = 'AbnormalClinicalFindings'): Error from server: Access violation at address 000000000070D357 in module 'FHIRServer.exe'. Read of address FFFFFFFFFFFFFFFF
 == /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BiologicalSexes.json ==
 INFORMATION: ValueSet/BiologicalSexes: ValueSet/BiologicalSexes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BodySites.json ==
-INFORMATION: ValueSet/BodySites: ValueSet/BodySites: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterClasses.json ==
 INFORMATION: ValueSet/EncounterClasses: ValueSet/EncounterClasses: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
 == /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterTypes.json ==

@@ -10,7 +10,7 @@
   "name": "GenomicsClinicalPictureRepositoryIG",
   "title": "Genomics Clinical Picture Repository Implementation Guide",
   "status": "draft",
-  "date": "2021-05-07T04:25:19+00:00",
+  "date": "2021-05-07T07:08:14+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -487,20 +487,6 @@
         },
         "name": "Biological Sexes Value Set",
         "description": "SNOMED CT concepts for biological sex.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "ValueSet"
-          }
-        ],
-        "reference": {
-          "reference": "ValueSet/BodySites"
-        },
-        "name": "Body Sites Value Set",
-        "description": "Body sites from SNOMED CT.",
         "exampleBoolean": false
       },
       {

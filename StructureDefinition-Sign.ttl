@@ -27,7 +27,7 @@
   fhir:StructureDefinition.name [ fhir:value "Sign"];
   fhir:StructureDefinition.title [ fhir:value "Sign"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-07T04:25:19+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-07T07:08:14+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;
@@ -1610,8 +1610,8 @@
        fhir:ElementDefinition.binding [
          fhir:ElementDefinition.binding.strength [ fhir:value "required" ];
          fhir:ElementDefinition.binding.valueSet [
-           fhir:value "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites";
-           fhir:link <http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites>
+           fhir:value "http://hl7.org/fhir/ValueSet/body-site";
+           fhir:link <http://hl7.org/fhir/ValueSet/body-site>
          ]
        ];
        fhir:ElementDefinition.mapping [

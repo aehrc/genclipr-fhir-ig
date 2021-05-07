@@ -26,7 +26,7 @@
   fhir:StructureDefinition.name [ fhir:value "GencliprResearchStudy"];
   fhir:StructureDefinition.title [ fhir:value "Genomics Clinical Picture Repository Research Study"];
   fhir:StructureDefinition.status [ fhir:value "active"];
-  fhir:StructureDefinition.date [ fhir:value "2021-05-07T04:25:19+00:00"^^xsd:dateTime];
+  fhir:StructureDefinition.date [ fhir:value "2021-05-07T07:08:14+00:00"^^xsd:dateTime];
   fhir:StructureDefinition.publisher [ fhir:value "The Australian e-Health Research Centre"];
   fhir:StructureDefinition.contact [
      fhir:index 0;

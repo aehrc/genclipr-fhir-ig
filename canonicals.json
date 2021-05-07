@@ -140,13 +140,6 @@
     "name": "BiologicalSexes"
   },
   {
-    "id": "BodySites",
-    "type": "ValueSet",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BodySites",
-    "version": "0.1.0",
-    "name": "BodySites"
-  },
-  {
     "id": "EncounterClasses",
     "type": "ValueSet",
     "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses",
