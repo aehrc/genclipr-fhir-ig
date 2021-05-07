@@ -3,7 +3,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>AGHA.FHIR.GENCLIPR\Biological Sexes Value Set - FHIR v4.0.1</title>
+    <title>AGHA.FHIR.GENCLIPR\Downloads - FHIR v4.0.1</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -39,8 +39,8 @@
 
 	  <script src="assets/js/prism.js"></script>
 
-    <style type="text/css">h2{--heading-prefix:"3.14"}
-    h3,h4,h5,h6{--heading-prefix:"3.14"}</style>
+    <style type="text/css">h2{--heading-prefix:"2"}
+    h3,h4,h5,h6{--heading-prefix:"2"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
         <!-- Placeholder for child template header declarations -->
@@ -90,7 +90,7 @@
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
-          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Biological Sexes Value Set</b></li>
+          <li><a href='toc.html'><b>Table of Contents</b></a></li><li><b>Downloads</b></li>
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
@@ -100,8 +100,16 @@
         <div class="row">
           <div class="inner-wrapper">
 
+<style type="text/css">
+h2:before{color:silver;counter-increment:section;content:var(--heading-prefix) " ";}
+h3:before{color:silver;counter-increment:sub-section;content:var(--heading-prefix) "." counter(sub-section) " ";}
+h4:before{color:silver;counter-increment:composite;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) " ";}
+h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) " ";}
+h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
+</style>
 <div class="col-12">
   <!--ReleaseHeader--><p id="publish-box">Genomics Clinical Picture Repository Implementation Guide - Local Development build (v0.1.0). See the <a href="http://aehrc.github.io/genclipr-fhir-ig/history.html">Directory of published versions</a></p><!--EndReleaseHeader-->
+  <h2>Downloads</h2>
   
 
 
@@ -109,122 +117,38 @@
 
 
 
-<ul class="nav nav-tabs">
-
-  <li class="active">
-    <a href="#">Narrative Content</a>
-  </li>
-
-
-  
-    <li>
-      <a href="ValueSet-BiologicalSexes.xml.html">XML</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-BiologicalSexes.json.html">JSON</a>
-    </li>
-  
-
-
-  
-    <li>
-      <a href="ValueSet-BiologicalSexes.ttl.html">TTL</a>
-    </li>
-  
 
 
 
+    <p><!-- white space is critical inside of capture --></p>
+<div class="markdown-toc">
+<ul id="markdown-toc">
+  <li><a href="#definitions" id="markdown-toc-definitions">Definitions</a></li>
+  <li><a href="#npm-package" id="markdown-toc-npm-package">NPM Package</a></li>
+  <li><a href="#examples" id="markdown-toc-examples">Examples</a></li>
 </ul>
 
-  <a name="root"> </a>
-  <h2 id="root">ValueSet: Biological Sexes Value Set</h2>
-  <p>
-    <b>Summary</b>
-  </p>
-  <table class="grid">
-<tbody>
-<tr><td>Defining URL:</td><td>http://aehrc.github.io/genclipr-fhir-ig/ValueSet/BiologicalSexes</td></tr>
- <tr><td>Version:</td><td>0.1.0</td></tr>
- <tr><td>Name:</td><td>BiologicalSexes</td></tr>
- <tr><td>Title:</td><td>Biological Sexes Value Set</td></tr>
- <tr><td>Status:</td><td>Active as of 2021-05-07T04:24:16+00:00</td></tr>
- <tr><td>Definition:</td><td><p>SNOMED CT concepts for biological sex.</p>
-</td></tr>
- <tr><td>Publisher:</td><td>The Australian e-Health Research Centre</td></tr>
- <tr><td>Copyright:</td><td><p><a href="https://www.australiangenomics.org.au">Australian Genomics</a></p>
-</td></tr>
- <tr><td>Source Resource:</td><td><a href="ValueSet-BiologicalSexes.xml.html">XML</a> / <a href="ValueSet-BiologicalSexes.json.html">JSON</a> / <a href="ValueSet-BiologicalSexes.ttl.html">Turtle</a></td></tr>
-</tbody></table>
-
-
-  <p>
-    <b>References</b>
-  </p>
-  
+</div>
+<h3 id="definitions">Definitions</h3>
+<p>The following files contain all the profiles defined in this Implementation Guide in different formats:</p>
 <ul>
- <li><a href="StructureDefinition-BiologicalSex.html">Biological Sex</a></li>
+  <li><a href="./definitions.xml.zip">XML</a></li>
+  <li><a href="./definitions.json.zip">JSON</a></li>
+  <li><a href="./definitions.ttl.zip">TTL</a>
+The above complete definitions are the most suitable choice for generating implementations of profiles described in this guide. See the overview on <a href="https://hl7.org/fhir/r4/validation.html">validating FHIR® profiles and resources</a> for more information about validating profiles and how to use these artifacts.
+    <h3 id="npm-package">NPM Package</h3>
+    <p>The <a href="https://confluence.hl7.org/display/FHIR/NPM+Package+Specification">FHIR NPM package</a> for this Implementation Guide can be downloaded from the link below.</p>
+  </li>
+  <li><a href="./package.tgz">NCTS FHIR NPM Package</a>
+    <h3 id="examples">Examples</h3>
+    <p>All the examples that are used in this implementation guide available for download:</p>
+  </li>
+  <li><a href="./examples.xml.zip">XML</a></li>
+  <li><a href="./examples.json.zip">JSON</a></li>
+  <li><a href="./examples.ttl.zip">TTL</a></li>
 </ul>
 
 
-  <!-- insert intro if present -->
-  
-
-
-
-  <a name="definition"> </a>
-
-<!-- Content Logical Definition heading in the fragment -->
-  <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248152002">248152002</a></td><td>Female</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248153007">248153007</a></td><td>Male</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570681000036106">32570681000036106</a></td><td>Indeterminate sex</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570691000036108">32570691000036108</a></td><td>Intersex</td></tr><tr><td><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407374003">407374003</a></td><td>Transsexual</td></tr></table></li></ul></div>
-
-  <p>&#160;</p>
-  <a name="expansion"> </a>
-  <h3 id="expansion">Expansion</h3>
-
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 5 concepts</p><p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p><p>All codes from system <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html"><code>http://snomed.info/sct</code></a></p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-248152002"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248152002">248152002</a></td><td>Female</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-248153007"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248153007">248153007</a></td><td>Male</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-32570681000036106"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570681000036106">32570681000036106</a></td><td>Indeterminate sex</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-32570691000036108"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570691000036108">32570691000036108</a></td><td>Intersex</td><td/></tr><tr><td style="white-space:nowrap"><a name="http---snomed.info-sct-407374003"> </a><a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407374003">407374003</a></td><td>Transsexual</td><td/></tr></table></div>
-
-  <hr/>
-  <p>
-    Explanation of the columns that may appear on this page:
-  </p>
-  <table class="grid">
-    <tr>
-      <td>Level</td>
-      <td>A few code lists that FHIR defines are hierarchical - each code is assigned a level.
-          In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
-    </tr>
-    <tr>
-      <td>Source</td>
-      <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
-    </tr>
-    <tr>
-      <td>Code</td>
-      <td>The code (used as the code in the resource instance)</td>
-    </tr>
-    <tr>
-      <td>Display</td>
-      <td>The display (used in the <i>display</i> element of a <a href="http://hl7.org/fhir/R4/datatypes.html#Coding">Coding</a>). If there is no display, implementers should not simply display the code, but map the concept into their application</td>
-    </tr>
-    <tr>
-      <td>Definition</td>
-      <td>An explanation of the meaning of the concept</td>
-    </tr>
-    <tr>
-      <td>Comments</td>
-      <td>Additional notes about how to use the code</td>
-    </tr>
-  </table>
-
-  <!-- insert notes if present -->
-  
-
-
-
-  
 
 </div>
         </div>  <!-- /inner-wrapper -->
