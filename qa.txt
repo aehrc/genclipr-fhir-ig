@@ -3,7 +3,7 @@
 
 err = 0, warn = 13, info = 6
 IG Publisher Version: 1.1.113
-Generated Mon Mar 21 00:46:08 UTC 2022. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
+Generated Mon Mar 21 00:47:21 UTC 2022. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
  Build Errors : 0 / 0 / 0
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass : 0 / 0 / 2
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterType : 0 / 0 / 2
