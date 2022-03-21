@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CodeSystem xmlns="http://hl7.org/fhir">
+  <id value="GenomicTestType"/>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType defines the following codes:</p><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap">TEST:001<a name="GenomicTestType-TEST.58001"> </a></td><td>Gene Panel</td><td>Panel tests look for variants in more than one gene.</td></tr><tr><td style="white-space:nowrap">TEST:002<a name="GenomicTestType-TEST.58002"> </a></td><td>Research Exome</td><td>A whole exome sequencing test done in a research context.</td></tr><tr><td style="white-space:nowrap">TEST:003<a name="GenomicTestType-TEST.58003"> </a></td><td>Research Genome</td><td>A whole genome sequencing test done in a research context.</td></tr><tr><td style="white-space:nowrap">TEST:004<a name="GenomicTestType-TEST.58004"> </a></td><td>Research RNA-seq</td><td>An RNA sequencing test done in a research context.</td></tr></table></div>
+  </text>
+  <url value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType"/>
+  <version value="0.1.0"/>
+  <name value="GenomicTestType"/>
+  <title value="Genomic Test Type"/>
+  <status value="active"/>
+  <date value="2022-03-21T00:45:29+00:00"/>
+  <publisher value="The Australian e-Health Research Centre"/>
+  <contact>
+    <name value="The Australian e-Health Research Centre"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://aehrc.com"/>
+    </telecom>
+    <telecom>
+      <system value="email"/>
+      <value value="ontoserver-support@csiro.au"/>
+    </telecom>
+  </contact>
+  <description value="Types of genomic tests not available in LOINC."/>
+  <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+  <content value="complete"/>
+  <count value="4"/>
+  <concept>
+    <code value="TEST:001"/>
+    <display value="Gene Panel"/>
+    <definition value="Panel tests look for variants in more than one gene."/>
+  </concept>
+  <concept>
+    <code value="TEST:002"/>
+    <display value="Research Exome"/>
+    <definition value="A whole exome sequencing test done in a research context."/>
+  </concept>
+  <concept>
+    <code value="TEST:003"/>
+    <display value="Research Genome"/>
+    <definition value="A whole genome sequencing test done in a research context."/>
+  </concept>
+  <concept>
+    <code value="TEST:004"/>
+    <display value="Research RNA-seq"/>
+    <definition value="An RNA sequencing test done in a research context."/>
+  </concept>
+</CodeSystem>

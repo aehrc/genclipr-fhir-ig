@@ -3,14 +3,14 @@
   "id": "EncounterClasses",
   "text": {
     "status": "generated",
-    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-EncounterClass.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</code></a></li><li>Import all the codes that are contained in <a href=\"http://terminology.hl7.org/2.1.0/ValueSet-v3-ActEncounterCode.html\">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li></ul></div>"
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href=\"CodeSystem-EncounterClass.html\"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</code></a></li><li>Import all the codes that are contained in <a href=\"http://terminology.hl7.org/3.1.0/ValueSet-v3-ActEncounterCode.html\">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li></ul></div>"
   },
   "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses",
   "version": "0.1.0",
   "name": "EncounterClasses",
   "title": "Encounter Class Value Set",
   "status": "active",
-  "date": "2021-05-07T07:08:44+00:00",
+  "date": "2022-03-21T00:45:29+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {

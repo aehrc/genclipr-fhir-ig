@@ -11,7 +11,7 @@
   <name value="GenomicsClinicalPictureRepositoryIG"/>
   <title value="Genomics Clinical Picture Repository Implementation Guide"/>
   <status value="draft"/>
-  <date value="2021-05-07T07:08:44+00:00"/>
+  <date value="2022-03-21T00:45:29+00:00"/>
   <publisher value="The Australian e-Health Research Centre"/>
   <contact>
     <name value="The Australian e-Health Research Centre"/>
@@ -187,6 +187,22 @@
         <valueString value="true"/>
       </extension>
     </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="fmm-definition"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://hl7.org/fhir/versions.html#maturity"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="propagate-status"/>
+      </extension>
+      <extension url="value">
+        <valueString value="true"/>
+      </extension>
+    </extension>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
@@ -269,6 +285,17 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
+        <reference value="StructureDefinition/GencliprServiceRequest"/>
+      </reference>
+      <name value="Genomics Clinical Picture Repository Service Request"/>
+      <description value="Captues information about the genomic testing requested for a patient."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
         <reference value="StructureDefinition/ImagingFinding"/>
       </reference>
       <name value="Imaging Finding"/>
@@ -306,17 +333,6 @@
       </reference>
       <name value="Symptom"/>
       <description value="A symptom is an observation made by the patient and is hypothesized to be a realization of a disease."/>
-      <exampleBoolean value="false"/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/ResearchStudyReference"/>
-      </reference>
-      <name value="Research Study"/>
-      <description value="A research study associated with an encounter."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -361,6 +377,17 @@
       </reference>
       <name value="Encounter Type Value Set"/>
       <description value="Types of encounters captured in a genomics clinical picture FHIR repository."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/GenomicTestTypes"/>
+      </reference>
+      <name value="Genomic Test Types Value Set"/>
+      <description value="Genomic test types, including research tests."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>
@@ -438,6 +465,17 @@
       </reference>
       <name value="Finding Type"/>
       <description value="Extends the Observation Category codes to include additional categories."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/GenomicTestType"/>
+      </reference>
+      <name value="Genomic Test Type"/>
+      <description value="Types of genomic tests not available in LOINC."/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

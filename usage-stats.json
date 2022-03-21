@@ -2,15 +2,7 @@
   "package": "agha.fhir.genclipr",
   "version": "0.1.0",
   "fhirVersion": "4.0.1",
-  "extensions": [
-    {
-      "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference",
-      "title": "Research Study",
-      "types": [
-        "Reference"
-      ]
-    }
-  ],
+  "extensions": [],
   "profiles": {
     "Observation": [
       {
@@ -53,12 +45,15 @@
         "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprResearchSubject",
         "title": "Genomics Clinical Picture Repository Research Subject"
       }
+    ],
+    "ServiceRequest": [
+      {
+        "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprServiceRequest",
+        "title": "Genomics Clinical Picture Repository Service Request"
+      }
     ]
   },
   "usage": {
-    "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference": [
-      "Encounter"
-    ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bestpractice": [
       "StructureDefinition.snapshot.element.constraint"
     ],
@@ -76,6 +71,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
       "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter": [
+      "Encounter"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-category": [
       "StructureDefinition"
@@ -97,6 +95,9 @@
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status": [
       "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/workflow-researchStudy": [
+      "Encounter"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter": [
       "ImplementationGuide.definition"

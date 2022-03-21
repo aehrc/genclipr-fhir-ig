@@ -10,7 +10,7 @@
   "name": "GenomicsClinicalPictureRepositoryIG",
   "title": "Genomics Clinical Picture Repository Implementation Guide",
   "status": "draft",
-  "date": "2021-05-07T07:08:44+00:00",
+  "date": "2022-03-21T00:45:29+00:00",
   "publisher": "The Australian e-Health Research Centre",
   "contact": [
     {
@@ -290,6 +290,32 @@
           }
         ],
         "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "fmm-definition"
+          },
+          {
+            "url": "value",
+            "valueString": "http://hl7.org/fhir/versions.html#maturity"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+      },
+      {
+        "extension": [
+          {
+            "url": "code",
+            "valueString": "propagate-status"
+          },
+          {
+            "url": "value",
+            "valueString": "true"
+          }
+        ],
+        "url": "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
       }
     ],
     "resource": [
@@ -399,6 +425,20 @@
           }
         ],
         "reference": {
+          "reference": "StructureDefinition/GencliprServiceRequest"
+        },
+        "name": "Genomics Clinical Picture Repository Service Request",
+        "description": "Captues information about the genomic testing requested for a patient.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "StructureDefinition:resource"
+          }
+        ],
+        "reference": {
           "reference": "StructureDefinition/ImagingFinding"
         },
         "name": "Imaging Finding",
@@ -445,20 +485,6 @@
         },
         "name": "Symptom",
         "description": "A symptom is an observation made by the patient and is hypothesized to be a realization of a disease.",
-        "exampleBoolean": false
-      },
-      {
-        "extension": [
-          {
-            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-            "valueString": "StructureDefinition:extension"
-          }
-        ],
-        "reference": {
-          "reference": "StructureDefinition/ResearchStudyReference"
-        },
-        "name": "Research Study",
-        "description": "A research study associated with an encounter.",
         "exampleBoolean": false
       },
       {
@@ -515,6 +541,20 @@
         },
         "name": "Encounter Type Value Set",
         "description": "Types of encounters captured in a genomics clinical picture FHIR repository.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "ValueSet"
+          }
+        ],
+        "reference": {
+          "reference": "ValueSet/GenomicTestTypes"
+        },
+        "name": "Genomic Test Types Value Set",
+        "description": "Genomic test types, including research tests.",
         "exampleBoolean": false
       },
       {
@@ -613,6 +653,20 @@
         },
         "name": "Finding Type",
         "description": "Extends the Observation Category codes to include additional categories.",
+        "exampleBoolean": false
+      },
+      {
+        "extension": [
+          {
+            "url": "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+            "valueString": "CodeSystem"
+          }
+        ],
+        "reference": {
+          "reference": "CodeSystem/GenomicTestType"
+        },
+        "name": "Genomic Test Type",
+        "description": "Types of genomic tests not available in LOINC.",
         "exampleBoolean": false
       },
       {

@@ -24,8 +24,12 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Encounter.extension","researchStudy","","",0,1,"Y","","","Extension {[CanonicalType[http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference]]} {[]}
-","Research Study","A research study associated with an encounter.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Encounter.extension","researchStudy","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/workflow-researchStudy]]} {[]}
+","Associated research study","Indicates that this event is relevant to the specified research study(ies).","This relevance might mean that the even occurred as part of the study protocol, but can also include events that occurred outside the study but still have relevance (e.g. adverse events, co-occurring medications, unexpected Observations, etc.).","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}","Event.researchStudy",".outboundRelationship[typeCode=PERT].target[classCode=CLNTRL, moodCode=EVN]"
+"Encounter.extension","associatedEncounter","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter]]} {[]}
+","Associated Encounter","This encounter occurs within the scope of the referenced encounter.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Encounter.modifierExtension","","extensions
@@ -86,7 +90,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","The time that the episode was in the specified class","The time that the episode was in the specified class.","","","","","","","","","",,,,,"",,,,"Encounter.classHistory.period",1,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","n/a"
 "Encounter.type","","","",0,*,"Y","","Y","CodeableConcept {[]} {[]}
-","Specific type of encounter","Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation).","Since there are many ways to further classify encounters, this element is 0..*.","","","","","","","","",,"required","","http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypes","",,,,"Encounter.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+","Specific type of encounter","Specific type of encounter (e.g. e-mail consultation, surgical day-care, skilled nursing, rehabilitation).","Since there are many ways to further classify encounters, this element is 0..*.","","","","","","","","",,"example","","http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypes","",,,,"Encounter.type",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Event.code",".code","FiveWs.class","PV1-4 / PV1-18"
 "Encounter.serviceType","","","",0,1,"","","Y","CodeableConcept {[]} {[]}
 ","Specific type of service","Broad categorization of the service that is to be provided (e.g. cardiology).","","","","","","","","","",,"example","Broad categorization of the service that is to be provided.","http://hl7.org/fhir/ValueSet/service-type","",,,,"Encounter.serviceType",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}

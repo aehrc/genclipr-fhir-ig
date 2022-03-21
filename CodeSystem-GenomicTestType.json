@@ -1,0 +1,56 @@
+{
+  "resourceType": "CodeSystem",
+  "id": "GenomicTestType",
+  "text": {
+    "status": "generated",
+    "div": "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p>This code system http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType defines the following codes:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">TEST:001<a name=\"GenomicTestType-TEST.58001\"> </a></td><td>Gene Panel</td><td>Panel tests look for variants in more than one gene.</td></tr><tr><td style=\"white-space:nowrap\">TEST:002<a name=\"GenomicTestType-TEST.58002\"> </a></td><td>Research Exome</td><td>A whole exome sequencing test done in a research context.</td></tr><tr><td style=\"white-space:nowrap\">TEST:003<a name=\"GenomicTestType-TEST.58003\"> </a></td><td>Research Genome</td><td>A whole genome sequencing test done in a research context.</td></tr><tr><td style=\"white-space:nowrap\">TEST:004<a name=\"GenomicTestType-TEST.58004\"> </a></td><td>Research RNA-seq</td><td>An RNA sequencing test done in a research context.</td></tr></table></div>"
+  },
+  "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType",
+  "version": "0.1.0",
+  "name": "GenomicTestType",
+  "title": "Genomic Test Type",
+  "status": "active",
+  "date": "2022-03-21T00:45:29+00:00",
+  "publisher": "The Australian e-Health Research Centre",
+  "contact": [
+    {
+      "name": "The Australian e-Health Research Centre",
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://aehrc.com"
+        },
+        {
+          "system": "email",
+          "value": "ontoserver-support@csiro.au"
+        }
+      ]
+    }
+  ],
+  "description": "Types of genomic tests not available in LOINC.",
+  "copyright": "[Australian Genomics](https://www.australiangenomics.org.au)",
+  "content": "complete",
+  "count": 4,
+  "concept": [
+    {
+      "code": "TEST:001",
+      "display": "Gene Panel",
+      "definition": "Panel tests look for variants in more than one gene."
+    },
+    {
+      "code": "TEST:002",
+      "display": "Research Exome",
+      "definition": "A whole exome sequencing test done in a research context."
+    },
+    {
+      "code": "TEST:003",
+      "display": "Research Genome",
+      "definition": "A whole genome sequencing test done in a research context."
+    },
+    {
+      "code": "TEST:004",
+      "display": "Research RNA-seq",
+      "definition": "An RNA sequencing test done in a research context."
+    }
+  ]
+}

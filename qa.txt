@@ -1,16 +1,16 @@
 ﻿GenomicsClinicalPictureRepositoryIG : Validation Results
 =========================================
 
-err = 1, warn = 12, info = 0
-IG Publisher Version: 1.1.68
-Generated Fri May 07 07:09:30 UTC 2021. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
-
+err = 0, warn = 13, info = 6
+IG Publisher Version: 1.1.113
+Generated Mon Mar 21 00:46:08 UTC 2022. FHIR version 4.0.1 for agha.fhir.genclipr#0.1.0 (canonical = http://aehrc.github.io/genclipr-fhir-ig)
  Build Errors : 0 / 0 / 0
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass : 0 / 0 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterType : 0 / 0 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-FindingType : 0 / 0 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-IdentifierType : 0 / 0 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-MitochondrialFindings : 0 / 0 / 1
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass : 0 / 0 / 2
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterType : 0 / 0 / 2
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-FindingType : 0 / 0 / 2
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-GenomicTestType : 0 / 0 / 2
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-IdentifierType : 0 / 0 / 2
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-MitochondrialFindings : 0 / 0 / 2
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ImplementationGuide-agha.fhir.genclipr : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-BiologicalSex : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-DeidentifiedPatient : 0 / 1 / 1
@@ -19,83 +19,66 @@ Generated Fri May 07 07:09:30 UTC 2021. FHIR version 4.0.1 for agha.fhir.genclip
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprEncounter : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchStudy : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchSubject : 0 / 1 / 1
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprServiceRequest : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ImagingFinding : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-LaboratoryFinding : 0 / 1 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ResearchStudyReference : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Sign : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Symptom : 0 / 1 / 1
- /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-AbnormalClinicalFindings : 1 / 0 / 1
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-AbnormalClinicalFindings : 0 / 1 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BiologicalSexes : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterClasses : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterTypes : 0 / 0 / 1
+ /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-GenomicTestTypes : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-Lateralities : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-PresenceValues : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-Severities : 0 / 0 / 1
  /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-TestInterpretationValues : 0 / 0 / 1
 </table>
 == n/a ==
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterClass.json ==
-INFORMATION: CodeSystem/EncounterClass: CodeSystem/EncounterClass: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-EncounterType.json ==
-INFORMATION: CodeSystem/EncounterType: CodeSystem/EncounterType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-FindingType.json ==
-INFORMATION: CodeSystem/FindingType: CodeSystem/FindingType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-IdentifierType.json ==
-INFORMATION: CodeSystem/IdentifierType: CodeSystem/IdentifierType: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/CodeSystem-MitochondrialFindings.json ==
-INFORMATION: CodeSystem/MitochondrialFindings: CodeSystem/MitochondrialFindings: CodeSystem: Validate resource against profile http://hl7.org/fhir/StructureDefinition/CodeSystem
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ImplementationGuide-agha.fhir.genclipr.json ==
-INFORMATION: ImplementationGuide/agha.fhir.genclipr: ImplementationGuide/agha.fhir.genclipr: ImplementationGuide: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ImplementationGuide
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-BiologicalSex.json ==
-INFORMATION: StructureDefinition/BiologicalSex: StructureDefinition/BiologicalSex: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/CodeSystem-EncounterClass.json ==
+INFORMATION: CodeSystem/EncounterClass: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-EncounterType.json ==
+INFORMATION: CodeSystem/EncounterType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-FindingType.json ==
+INFORMATION: CodeSystem/FindingType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-GenomicTestType.json ==
+INFORMATION: CodeSystem/GenomicTestType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-IdentifierType.json ==
+INFORMATION: CodeSystem/IdentifierType: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/CodeSystem-MitochondrialFindings.json ==
+INFORMATION: CodeSystem/MitochondrialFindings: CodeSystem: CodeSystems SHOULD have a stated value for the caseSensitive element so that users know the status and meaning of the code system clearly
+== fsh-generated/resources/ImplementationGuide-agha.fhir.genclipr.json ==
+== fsh-generated/resources/StructureDefinition-BiologicalSex.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/BiologicalSex'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-DeidentifiedPatient.json ==
-INFORMATION: StructureDefinition/DeidentifiedPatient: StructureDefinition/DeidentifiedPatient: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-DeidentifiedPatient.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/DeidentifiedPatient'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ExaminationFinding.json ==
-INFORMATION: StructureDefinition/ExaminationFinding: StructureDefinition/ExaminationFinding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-ExaminationFinding.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ExaminationFinding'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Finding.json ==
-INFORMATION: StructureDefinition/Finding: StructureDefinition/Finding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-Finding.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Finding'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprEncounter.json ==
-INFORMATION: StructureDefinition/GencliprEncounter: StructureDefinition/GencliprEncounter: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-GencliprEncounter.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprEncounter'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchStudy.json ==
-INFORMATION: StructureDefinition/GencliprResearchStudy: StructureDefinition/GencliprResearchStudy: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-GencliprResearchStudy.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprResearchStudy'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-GencliprResearchSubject.json ==
-INFORMATION: StructureDefinition/GencliprResearchSubject: StructureDefinition/GencliprResearchSubject: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-GencliprResearchSubject.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprResearchSubject'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ImagingFinding.json ==
-INFORMATION: StructureDefinition/ImagingFinding: StructureDefinition/ImagingFinding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-GencliprServiceRequest.json ==
+WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprServiceRequest'): The Implementation Guide contains no examples for this profile
+== fsh-generated/resources/StructureDefinition-ImagingFinding.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ImagingFinding'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-LaboratoryFinding.json ==
-INFORMATION: StructureDefinition/LaboratoryFinding: StructureDefinition/LaboratoryFinding: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-LaboratoryFinding.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-ResearchStudyReference.json ==
-INFORMATION: StructureDefinition/ResearchStudyReference: StructureDefinition/ResearchStudyReference: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
-WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference'): The Implementation Guide contains no examples for this extension
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Sign.json ==
-INFORMATION: StructureDefinition/Sign: StructureDefinition/Sign: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-Sign.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Sign'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/StructureDefinition-Symptom.json ==
-INFORMATION: StructureDefinition/Symptom: StructureDefinition/Symptom: StructureDefinition: Validate resource against profile http://hl7.org/fhir/StructureDefinition/StructureDefinition
+== fsh-generated/resources/StructureDefinition-Symptom.json ==
 WARNING: StructureDefinition.where(url = 'http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/Symptom'): The Implementation Guide contains no examples for this profile
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-AbnormalClinicalFindings.json ==
-INFORMATION: ValueSet/AbnormalClinicalFindings: ValueSet/AbnormalClinicalFindings: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-ERROR: ValueSet.where(id = 'AbnormalClinicalFindings'): Error from server: Access violation at address 000000000070D357 in module 'FHIRServer.exe'. Read of address FFFFFFFFFFFFFFFF
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-BiologicalSexes.json ==
-INFORMATION: ValueSet/BiologicalSexes: ValueSet/BiologicalSexes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterClasses.json ==
-INFORMATION: ValueSet/EncounterClasses: ValueSet/EncounterClasses: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-EncounterTypes.json ==
-INFORMATION: ValueSet/EncounterTypes: ValueSet/EncounterTypes: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-Lateralities.json ==
-INFORMATION: ValueSet/Lateralities: ValueSet/Lateralities: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-PresenceValues.json ==
-INFORMATION: ValueSet/PresenceValues: ValueSet/PresenceValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-Severities.json ==
-INFORMATION: ValueSet/Severities: ValueSet/Severities: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
-== /home/runner/work/genclipr-fhir-ig/genclipr-fhir-ig/fsh-generated/resources/ValueSet-TestInterpretationValues.json ==
-INFORMATION: ValueSet/TestInterpretationValues: ValueSet/TestInterpretationValues: ValueSet: Validate resource against profile http://hl7.org/fhir/StructureDefinition/ValueSet
+== fsh-generated/resources/ValueSet-AbnormalClinicalFindings.json ==
+WARNING: ValueSet.where(id = 'AbnormalClinicalFindings'): Error from server: Unable to provide support for code system http://purl.obolibrary.org/obo/hp.fhir
+== fsh-generated/resources/ValueSet-BiologicalSexes.json ==
+== fsh-generated/resources/ValueSet-EncounterClasses.json ==
+== fsh-generated/resources/ValueSet-EncounterTypes.json ==
+== fsh-generated/resources/ValueSet-GenomicTestTypes.json ==
+== fsh-generated/resources/ValueSet-Lateralities.json ==
+== fsh-generated/resources/ValueSet-PresenceValues.json ==
+== fsh-generated/resources/ValueSet-Severities.json ==
+== fsh-generated/resources/ValueSet-TestInterpretationValues.json ==

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="8bc19ec4-2581-407d-aa7d-a9ae87a35819"/>
+  <id value="0e1a0516-2173-4ebf-96c8-adbef396490f"/>
   <meta>
-    <lastUpdated value="2021-05-07T07:08:44.261+00:00"/>
+    <lastUpdated value="2022-03-21T00:45:29.525+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -14,10 +14,10 @@
         <text>
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
-            <p>This value set contains 5 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+            <p>This value set contains 6 concepts</p>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>
@@ -29,49 +29,48 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-248152002"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248152002">248152002</a>
+                  <a name="http---snomed.info-sct-248152002"> </a>  
+                  <a href="http://snomed.info/id/248152002">248152002</a>
                 </td>
                 <td>Female</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-248153007"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=248153007">248153007</a>
+                  <a name="http---snomed.info-sct-248153007"> </a>  
+                  <a href="http://snomed.info/id/248153007">248153007</a>
                 </td>
                 <td>Male</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-32570681000036106"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570681000036106">32570681000036106</a>
+                  <a name="http---snomed.info-sct-32570681000036106"> </a>  
+                  <a href="http://snomed.info/id/32570681000036106">32570681000036106</a>
                 </td>
                 <td>Indeterminate sex</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-32570691000036108"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=32570691000036108">32570691000036108</a>
+                  <a name="http---snomed.info-sct-32570691000036108"> </a>  
+                  <a href="http://snomed.info/id/32570691000036108">32570691000036108</a>
                 </td>
                 <td>Intersex</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-407374003"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=407374003">407374003</a>
+                  <a name="http---snomed.info-sct-407374003"> </a>  
+                  <a href="http://snomed.info/id/407374003">407374003</a>
                 </td>
                 <td>Transsexual</td>
-                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---snomed.info-sct-394744001"> </a>  
+                  <a href="http://snomed.info/id/394744001">394744001</a>
+                </td>
+                <td>Gender unspecified</td>
               </tr>
             </table>
           </div>
@@ -81,7 +80,7 @@
         <name value="BiologicalSexes"/>
         <title value="Biological Sexes Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -97,9 +96,9 @@
         <description value="SNOMED CT concepts for biological sex."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:f8eec0f1-aed8-450b-b42a-ba5ea410fbe8"/>
-          <timestamp value="2021-05-07T07:09:13+00:00"/>
-          <total value="5"/>
+          <identifier value="urn:uuid:aaea01c2-a9d1-48db-913e-59805675580f"/>
+          <timestamp value="2022-03-21T00:45:54+00:00"/>
+          <total value="6"/>
           <parameter>
             <name value="excludeNested"/>
             <valueBoolean value="false"/>
@@ -110,7 +109,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -137,6 +136,11 @@
             <code value="407374003"/>
             <display value="Transsexual"/>
           </contains>
+          <contains>
+            <system value="http://snomed.info/sct"/>
+            <code value="394744001"/>
+            <display value="Gender unspecified"/>
+          </contains>
         </expansion>
       </ValueSet>
     </resource>
@@ -154,13 +158,13 @@
               <p>Expansion based on: </p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html">ActCode v5.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html">ActCode v6.1.0 (CodeSystem)</a>
                 </li>
                 <li>
                   <a href="CodeSystem-EncounterClass.html">Encounter Class v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/2.1.0/ValueSet-v3-ActEncounterCode.html">ActEncounterCode v2.0.0 (ValueSet)</a>
+                  <a href="http://terminology.hl7.org/3.1.0/ValueSet-v3-ActEncounterCode.html">ActEncounterCode v2.0.0 (ValueSet)</a>
                 </li>
               </ul>
             </div>
@@ -181,7 +185,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterClass-RS"> </a>
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterClass-RS"> </a>  
                   <a href="CodeSystem-EncounterClass.html#EncounterClass-RS">RS</a>
                 </td>
                 <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</td>
@@ -190,8 +194,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>ambulatory</td>
@@ -199,26 +203,26 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>emergency</td>
-                <td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient&#39;s care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td>
+                <td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>field</td>
-                <td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient&#39;s residence. Example locations might include an accident site and at a supermarket.</td>
+                <td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site and at a supermarket.</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-HH"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-HH"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>home health</td>
@@ -226,8 +230,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>inpatient encounter</td>
@@ -235,8 +239,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE">ACUTE</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE">ACUTE</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>inpatient acute</td>
@@ -244,17 +248,17 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC">NONAC</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC">NONAC</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>inpatient non-acute</td>
-                <td>Any category of inpatient encounter except &#39;acute&#39;</td>
+                <td>Any category of inpatient encounter except 'acute'</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>observation encounter</td>
@@ -262,8 +266,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>pre-admission</td>
@@ -273,8 +277,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-SS"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">SS</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-SS"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">SS</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>short stay</td>
@@ -282,8 +286,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-VR"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">VR</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-VR"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">VR</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td>
                 <td>virtual</td>
@@ -297,7 +301,7 @@
         <name value="EncounterClasses"/>
         <title value="Encounter Class Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -313,8 +317,8 @@
         <description value="Classes of encounters captured in a genomics clinical picture FHIR repository."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:2fd1fd51-f914-4412-8f81-30628781fe13"/>
-          <timestamp value="2021-05-07T07:09:14+00:00"/>
+          <identifier value="urn:uuid:225594d7-f9a1-4fdb-bbfb-2474ae464afd"/>
+          <timestamp value="2022-03-21T00:45:54+00:00"/>
           <total value="12"/>
           <parameter>
             <name value="excludeNested"/>
@@ -330,7 +334,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ActCode|5.0.0"/>
+            <valueUri value="http://terminology.hl7.org/CodeSystem/v3-ActCode|6.1.0"/>
           </parameter>
           <contains>
             <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass"/>
@@ -434,7 +438,7 @@
                   <a href="CodeSystem-EncounterType.html">Encounter Type v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-encounter-type.html">Encounter type v0.1.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-encounter-type.html">Encounter type v0.1.0 (CodeSystem)</a>
                 </li>
                 <li>
                   <a href="http://hl7.org/fhir/R4/valueset-encounter-type.html">Encounter type v4.0.1 (ValueSet)</a>
@@ -458,7 +462,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-REF"> </a>
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-REF"> </a>  
                   <a href="CodeSystem-EncounterType.html#EncounterType-REF">REF</a>
                 </td>
                 <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType</td>
@@ -467,7 +471,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-PRI"> </a>
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-PRI"> </a>  
                   <a href="CodeSystem-EncounterType.html#EncounterType-PRI">PRI</a>
                 </td>
                 <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType</td>
@@ -476,7 +480,7 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-PTI"> </a>
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterType-PTI"> </a>  
                   <a href="CodeSystem-EncounterType.html#EncounterType-PTI">PTI</a>
                 </td>
                 <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterType</td>
@@ -485,8 +489,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-ADMS"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-encounter-type.html#encounter-type-ADMS">ADMS</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-ADMS"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-encounter-type.html#encounter-type-ADMS">ADMS</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/encounter-type</td>
                 <td>Annual diabetes mellitus screening</td>
@@ -494,8 +498,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-BD-BM-clin"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-encounter-type.html#encounter-type-BD.47BM-clin">BD/BM-clin</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-BD-BM-clin"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-encounter-type.html#encounter-type-BD.47BM-clin">BD/BM-clin</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/encounter-type</td>
                 <td>Bone drilling/bone marrow punction in clinic</td>
@@ -503,8 +507,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-CCS60"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-encounter-type.html#encounter-type-CCS60">CCS60</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-CCS60"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-encounter-type.html#encounter-type-CCS60">CCS60</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/encounter-type</td>
                 <td>Infant colon screening - 60 minutes</td>
@@ -512,8 +516,8 @@
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-OKI"> </a>
-                  <a href="http://terminology.hl7.org/2.1.0/CodeSystem-encounter-type.html#encounter-type-OKI">OKI</a>
+                  <a name="http---terminology.hl7.org-CodeSystem-encounter-type-OKI"> </a>  
+                  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-encounter-type.html#encounter-type-OKI">OKI</a>
                 </td>
                 <td>http://terminology.hl7.org/CodeSystem/encounter-type</td>
                 <td>Outpatient Kenacort injection</td>
@@ -527,7 +531,7 @@
         <name value="EncounterTypes"/>
         <title value="Encounter Type Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -543,8 +547,8 @@
         <description value="Types of encounters captured in a genomics clinical picture FHIR repository."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:5128bf49-5eec-4c1c-b210-1f553572224a"/>
-          <timestamp value="2021-05-07T07:09:14+00:00"/>
+          <identifier value="urn:uuid:06f1dca0-27a8-4154-814d-7a4736a3d8a5"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -610,6 +614,174 @@
     </resource>
   </entry>
   <entry>
+    <fullUrl value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/GenomicTestTypes"/>
+    <resource>
+      <ValueSet>
+        <id value="GenomicTestTypes"/>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml">
+            <p>This value set contains 6 concepts</p>
+            <div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">
+              <p>Expansion based on: </p>
+              <ul>
+                <li>Loinc v2.71</li>
+                <li>
+                  <a href="CodeSystem-GenomicTestType.html">Genomic Test Type v0.1.0 (CodeSystem)</a>
+                </li>
+              </ul>
+            </div>
+            <table class="codes">
+              <tr>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>System</b>
+                </td>
+                <td>
+                  <b>Display</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-GenomicTestType-TEST-001"> </a>  
+                  <a href="CodeSystem-GenomicTestType.html#GenomicTestType-TEST.58001">TEST:001</a>
+                </td>
+                <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType</td>
+                <td>Gene Panel</td>
+                <td>Panel tests look for variants in more than one gene.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-GenomicTestType-TEST-002"> </a>  
+                  <a href="CodeSystem-GenomicTestType.html#GenomicTestType-TEST.58002">TEST:002</a>
+                </td>
+                <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType</td>
+                <td>Research Exome</td>
+                <td>A whole exome sequencing test done in a research context.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-GenomicTestType-TEST-003"> </a>  
+                  <a href="CodeSystem-GenomicTestType.html#GenomicTestType-TEST.58003">TEST:003</a>
+                </td>
+                <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType</td>
+                <td>Research Genome</td>
+                <td>A whole genome sequencing test done in a research context.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-GenomicTestType-TEST-004"> </a>  
+                  <a href="CodeSystem-GenomicTestType.html#GenomicTestType-TEST.58004">TEST:004</a>
+                </td>
+                <td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType</td>
+                <td>Research RNA-seq</td>
+                <td>An RNA sequencing test done in a research context.</td>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-86205-2"> </a>  
+                  <a href="http://details.loinc.org/LOINC/86205-2.html">86205-2</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Whole exome sequence analysis in Blood or Tissue by Molecular genetics method</td>
+                <td/>
+              </tr>
+              <tr>
+                <td style="white-space:nowrap">
+                  <a name="http---loinc.org-86206-0"> </a>  
+                  <a href="http://details.loinc.org/LOINC/86206-0.html">86206-0</a>
+                </td>
+                <td>http://loinc.org</td>
+                <td>Whole genome sequence analysis in Blood or Tissue by Molecular genetics method</td>
+                <td/>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/GenomicTestTypes"/>
+        <version value="0.1.0"/>
+        <name value="GenomicTestTypes"/>
+        <title value="Genomic Test Types Value Set"/>
+        <status value="active"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
+        <publisher value="The Australian e-Health Research Centre"/>
+        <contact>
+          <name value="The Australian e-Health Research Centre"/>
+          <telecom>
+            <system value="url"/>
+            <value value="https://aehrc.com"/>
+          </telecom>
+          <telecom>
+            <system value="email"/>
+            <value value="ontoserver-support@csiro.au"/>
+          </telecom>
+        </contact>
+        <description value="Genomic test types, including research tests."/>
+        <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
+        <expansion>
+          <identifier value="urn:uuid:abe6ee7c-c526-4988-9e67-f0cc8e3d47af"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
+          <total value="6"/>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType|0.1.0"/>
+          </parameter>
+          <parameter>
+            <name value="limitedExpansion"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="true"/>
+          </parameter>
+          <parameter>
+            <name value="version"/>
+            <valueUri value="http://loinc.org|2.71"/>
+          </parameter>
+          <contains>
+            <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType"/>
+            <code value="TEST:001"/>
+            <display value="Gene Panel"/>
+          </contains>
+          <contains>
+            <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType"/>
+            <code value="TEST:002"/>
+            <display value="Research Exome"/>
+          </contains>
+          <contains>
+            <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType"/>
+            <code value="TEST:003"/>
+            <display value="Research Genome"/>
+          </contains>
+          <contains>
+            <system value="http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType"/>
+            <code value="TEST:004"/>
+            <display value="Research RNA-seq"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="86205-2"/>
+            <display value="Whole exome sequence analysis in Blood or Tissue by Molecular genetics method"/>
+          </contains>
+          <contains>
+            <system value="http://loinc.org"/>
+            <code value="86206-0"/>
+            <display value="Whole genome sequence analysis in Blood or Tissue by Molecular genetics method"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
     <fullUrl value="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/Lateralities"/>
     <resource>
       <ValueSet>
@@ -618,9 +790,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>
@@ -632,41 +804,34 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-24028007"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24028007">24028007</a>
+                  <a name="http---snomed.info-sct-24028007"> </a>  
+                  <a href="http://snomed.info/id/24028007">24028007</a>
                 </td>
                 <td>Right</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-7771000"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=7771000">7771000</a>
+                  <a name="http---snomed.info-sct-7771000"> </a>  
+                  <a href="http://snomed.info/id/7771000">7771000</a>
                 </td>
                 <td>Left</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-66459002"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=66459002">66459002</a>
+                  <a name="http---snomed.info-sct-66459002"> </a>  
+                  <a href="http://snomed.info/id/66459002">66459002</a>
                 </td>
                 <td>Unilateral</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-51440002"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=51440002">51440002</a>
+                  <a name="http---snomed.info-sct-51440002"> </a>  
+                  <a href="http://snomed.info/id/51440002">51440002</a>
                 </td>
                 <td>Right and left</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -676,7 +841,7 @@
         <name value="Lateralities"/>
         <title value="Lateralities Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -692,8 +857,8 @@
         <description value="Codes used to describe the laterality of a body structure."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:f9907208-3e56-421d-93c0-67251a067123"/>
-          <timestamp value="2021-05-07T07:09:14+00:00"/>
+          <identifier value="urn:uuid:b4f2f748-70fb-4490-b81a-67cd43e737ec"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -705,7 +870,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -740,9 +905,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>
@@ -754,41 +919,34 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-52101004"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=52101004">52101004</a>
+                  <a name="http---snomed.info-sct-52101004"> </a>  
+                  <a href="http://snomed.info/id/52101004">52101004</a>
                 </td>
                 <td>Present</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-2667000"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=2667000">2667000</a>
+                  <a name="http---snomed.info-sct-2667000"> </a>  
+                  <a href="http://snomed.info/id/2667000">2667000</a>
                 </td>
                 <td>Absent</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-385660001"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=385660001">385660001</a>
+                  <a name="http---snomed.info-sct-385660001"> </a>  
+                  <a href="http://snomed.info/id/385660001">385660001</a>
                 </td>
                 <td>Not done</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-373068000"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=373068000">373068000</a>
+                  <a name="http---snomed.info-sct-373068000"> </a>  
+                  <a href="http://snomed.info/id/373068000">373068000</a>
                 </td>
                 <td>Undetermined</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -798,7 +956,7 @@
         <name value="PresenceValues"/>
         <title value="Presence Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -814,8 +972,8 @@
         <description value="Presence / absence values from SNOMED CT."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:e9c0bac0-1525-402c-94e9-356dd80932a7"/>
-          <timestamp value="2021-05-07T07:09:14+00:00"/>
+          <identifier value="urn:uuid:9bde3e1d-3c71-4ae1-a8df-a927070605df"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -827,7 +985,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -862,9 +1020,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 7 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>
@@ -876,65 +1034,55 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-6736007"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=6736007">6736007</a>
+                  <a name="http---snomed.info-sct-6736007"> </a>  
+                  <a href="http://snomed.info/id/6736007">6736007</a>
                 </td>
                 <td>Moderate</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-24484000"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=24484000">24484000</a>
+                  <a name="http---snomed.info-sct-24484000"> </a>  
+                  <a href="http://snomed.info/id/24484000">24484000</a>
                 </td>
                 <td>Severe</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-255604002"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=255604002">255604002</a>
+                  <a name="http---snomed.info-sct-255604002"> </a>  
+                  <a href="http://snomed.info/id/255604002">255604002</a>
                 </td>
                 <td>Mild</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-371923003"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371923003">371923003</a>
+                  <a name="http---snomed.info-sct-371923003"> </a>  
+                  <a href="http://snomed.info/id/371923003">371923003</a>
                 </td>
-                <td>Mild to moderate</td>
-                <td/>
+                <td>Mild to moderate (qualifier value)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-371924009"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=371924009">371924009</a>
+                  <a name="http---snomed.info-sct-371924009"> </a>  
+                  <a href="http://snomed.info/id/371924009">371924009</a>
                 </td>
-                <td>Moderate to severe</td>
-                <td/>
+                <td>Moderate to severe (qualifier value)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-399166001"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=399166001">399166001</a>
+                  <a name="http---snomed.info-sct-399166001"> </a>  
+                  <a href="http://snomed.info/id/399166001">399166001</a>
                 </td>
-                <td>Fatal</td>
-                <td/>
+                <td>Fatal (qualifier value)</td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-442452003"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=442452003">442452003</a>
+                  <a name="http---snomed.info-sct-442452003"> </a>  
+                  <a href="http://snomed.info/id/442452003">442452003</a>
                 </td>
                 <td>Life threatening severity</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -944,7 +1092,7 @@
         <name value="Severities"/>
         <title value="Severity Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -963,8 +1111,8 @@
           <extension url="http://hl7.org/fhir/StructureDefinition/valueset-unclosed">
             <valueBoolean value="true"/>
           </extension>
-          <identifier value="urn:uuid:0e5bc1ae-e0eb-42a2-a9a6-f37fec216b7d"/>
-          <timestamp value="2021-05-07T07:09:15+00:00"/>
+          <identifier value="urn:uuid:01234b78-1dfc-4ad8-9cd8-d7c515ed3d61"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
           <total value="7"/>
           <parameter>
             <name value="excludeNested"/>
@@ -976,7 +1124,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -996,17 +1144,17 @@
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371923003"/>
-            <display value="Mild to moderate"/>
+            <display value="Mild to moderate (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="371924009"/>
-            <display value="Moderate to severe"/>
+            <display value="Moderate to severe (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
             <code value="399166001"/>
-            <display value="Fatal"/>
+            <display value="Fatal (qualifier value)"/>
           </contains>
           <contains>
             <system value="http://snomed.info/sct"/>
@@ -1026,9 +1174,9 @@
           <status value="generated"/>
           <div xmlns="http://www.w3.org/1999/xhtml">
             <p>This value set contains 4 concepts</p>
-            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jan 2021</p>
-            <p>All codes from system 
-              <a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-snomed-CT.html">
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion based on SNOMED CT International edition 31-Jul 2021</p>
+            <p>All codes in this table are from the system 
+              <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-snomed-CT.html">
                 <code>http://snomed.info/sct</code>
               </a>
             </p>
@@ -1040,41 +1188,34 @@
                 <td>
                   <b>Display</b>
                 </td>
-                <td>
-                  <b>Definition</b>
-                </td>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-62482003"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=62482003">62482003</a>
+                  <a name="http---snomed.info-sct-62482003"> </a>  
+                  <a href="http://snomed.info/id/62482003">62482003</a>
                 </td>
                 <td>Low</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-11896004"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=11896004">11896004</a>
+                  <a name="http---snomed.info-sct-11896004"> </a>  
+                  <a href="http://snomed.info/id/11896004">11896004</a>
                 </td>
                 <td>Intermediate</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-17621005"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=17621005">17621005</a>
+                  <a name="http---snomed.info-sct-17621005"> </a>  
+                  <a href="http://snomed.info/id/17621005">17621005</a>
                 </td>
                 <td>Normal</td>
-                <td/>
               </tr>
               <tr>
                 <td style="white-space:nowrap">
-                  <a name="http---snomed.info-sct-75540009"> </a>
-                  <a href="http://browser.ihtsdotools.org/?perspective=full&amp;conceptId1=75540009">75540009</a>
+                  <a name="http---snomed.info-sct-75540009"> </a>  
+                  <a href="http://snomed.info/id/75540009">75540009</a>
                 </td>
                 <td>High</td>
-                <td/>
               </tr>
             </table>
           </div>
@@ -1084,7 +1225,7 @@
         <name value="TestInterpretationValues"/>
         <title value="Test Interpretation Value Set"/>
         <status value="active"/>
-        <date value="2021-05-07T07:08:44+00:00"/>
+        <date value="2022-03-21T00:45:29+00:00"/>
         <publisher value="The Australian e-Health Research Centre"/>
         <contact>
           <name value="The Australian e-Health Research Centre"/>
@@ -1100,8 +1241,8 @@
         <description value="Test interpretation values from SNOMED CT."/>
         <copyright value="[Australian Genomics](https://www.australiangenomics.org.au)"/>
         <expansion>
-          <identifier value="urn:uuid:8f2ce1dd-984d-4108-9272-a26e45bb4913"/>
-          <timestamp value="2021-05-07T07:09:15+00:00"/>
+          <identifier value="urn:uuid:9f618a24-733e-4529-b7c5-ba8b84d829a1"/>
+          <timestamp value="2022-03-21T00:45:55+00:00"/>
           <total value="4"/>
           <parameter>
             <name value="excludeNested"/>
@@ -1113,7 +1254,7 @@
           </parameter>
           <parameter>
             <name value="version"/>
-            <valueString value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210131"/>
+            <valueUri value="http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20210731"/>
           </parameter>
           <contains>
             <system value="http://snomed.info/sct"/>

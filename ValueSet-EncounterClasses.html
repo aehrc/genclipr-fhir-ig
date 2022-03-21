@@ -47,7 +47,13 @@
 
 
         <div id="ig-status">
-          <p><span style="font-size:12pt;font-weight:bold">Genomics Clinical Picture Repository Implementation Guide</span><br/>0.1.0 - ci-build</p>
+          <p><span style="font-size:12pt;font-weight:bold">Genomics Clinical Picture Repository Implementation Guide</span>
+            <br/>
+            <span style="display:inline-block;">0.1.0 - ci-build
+
+
+            </span>
+          </p>
         </div>
       </div> <!-- /container -->
     </div>  <!-- /segment-header -->
@@ -87,14 +93,17 @@
       </div>  <!-- /container -->
     </div>  <!-- /segment-navbar -->
     <!--status-bar-->
+
     <div id="segment-breadcrumb" class="segment">  <!-- segment-breadcrumb -->
       <div class="container">  <!-- container -->
         <ul class="breadcrumb">
           <li><a href='toc.html'><b>Table of Contents</b></a></li><li><a href='artifacts.html'><b>Artifacts Summary</b></a></li><li><b>Encounter Class Value Set</b></li>
+
         </ul>
       </div>  <!-- /container -->
     </div>  <!-- /segment-breadcrumb -->
 
+    <a name="top"> </a>
     <div id="segment-content" class="segment">  <!-- segment-content -->
       <div class="container">  <!-- container -->
         <div class="row">
@@ -141,24 +150,55 @@
 </ul>
 
   <a name="root"> </a>
-  <h2 id="root">ValueSet: Encounter Class Value Set</h2>
-  <p>
-    <b>Summary</b>
-  </p>
-  <table class="grid">
-<tbody>
-<tr><td>Defining URL:</td><td>http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses</td></tr>
- <tr><td>Version:</td><td>0.1.0</td></tr>
- <tr><td>Name:</td><td>EncounterClasses</td></tr>
- <tr><td>Title:</td><td>Encounter Class Value Set</td></tr>
- <tr><td>Status:</td><td>Active as of 2021-05-07T07:08:44+00:00</td></tr>
- <tr><td>Definition:</td><td><p>Classes of encounters captured in a genomics clinical picture FHIR repository.</p>
-</td></tr>
- <tr><td>Publisher:</td><td>The Australian e-Health Research Centre</td></tr>
- <tr><td>Copyright:</td><td><p><a href="https://www.australiangenomics.org.au">Australian Genomics</a></p>
-</td></tr>
- <tr><td>Source Resource:</td><td><a href="ValueSet-EncounterClasses.xml.html">XML</a> / <a href="ValueSet-EncounterClasses.json.html">JSON</a> / <a href="ValueSet-EncounterClasses.ttl.html">Turtle</a></td></tr>
-</tbody></table>
+  <h2 id="root">ValueSet: Encounter Class Value Set
+
+  </h2>
+  <table class="colsi">
+
+    <tr>
+      <td colspan="4"><i>Official URL</i>: <span class="copy-text">http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses<button title="Click to copy URL" class="btn-copy" data-clipboard-text="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses"/></span>
+      </td>
+      <td><i>Version</i>:
+      <span class="copy-text">0.1.0<button title="Click to copy versioned URL" class="btn-copy" data-clipboard-text="http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterClasses|0.1.0"/></span>
+      </td>
+    </tr>
+
+    <tr>
+
+
+
+
+
+
+
+      <td colspan="4">
+        
+          Active
+          
+            as of 2022-03-21
+          
+        
+      </td>
+
+
+
+      <td><i>Computable Name</i>: <span style="font-family: monospace;">EncounterClasses</span></td>
+    </tr>
+
+
+
+
+    <tr>
+      <td colspan="5"><p><em>Copyright/Legal</em>: <a href="https://www.australiangenomics.org.au">Australian Genomics</a></p>
+</td>
+    </tr>
+
+  </table>
+
+<p>
+<p>Classes of encounters captured in a genomics clinical picture FHIR repository.</p>
+
+</p>
 
 
   <p>
@@ -179,15 +219,15 @@
 
 <!-- Content Logical Definition heading in the fragment -->
   <h3>Logical Definition (CLD)</h3>
-<div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-EncounterClass.html"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</code></a></li><li>Import all the codes that are contained in <a href="http://terminology.hl7.org/2.1.0/ValueSet-v3-ActEncounterCode.html">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li></ul></div>
+<div xmlns="http://www.w3.org/1999/xhtml"><p>This value set includes codes based on the following rules:</p><ul><li>Include all codes defined in <a href="CodeSystem-EncounterClass.html"><code>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</code></a></li><li>Import all the codes that are contained in <a href="http://terminology.hl7.org/3.1.0/ValueSet-v3-ActEncounterCode.html">http://terminology.hl7.org/ValueSet/v3-ActEncounterCode</a></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
   <h3 id="expansion">Expansion</h3>
 
-  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 12 concepts</p><div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px"><p>Expansion based on: </p><ul><li><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html">ActCode v5.0.0 (CodeSystem)</a></li><li><a href="CodeSystem-EncounterClass.html">Encounter Class v0.1.0 (CodeSystem)</a></li><li><a href="http://terminology.hl7.org/2.1.0/ValueSet-v3-ActEncounterCode.html">ActEncounterCode v2.0.0 (ValueSet)</a></li></ul></div><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterClass-RS"> </a><a href="CodeSystem-EncounterClass.html#EncounterClass-RS">RS</a></td><td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</td><td>research study</td><td>An encounter that is part of a research study.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>ambulatory</td><td>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>emergency</td><td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>field</td><td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site and at a supermarket.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-HH"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>home health</td><td>Healthcare encounter that takes place in the residence of the patient or a designee</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient encounter</td><td>A patient encounter where a patient is admitted by a hospital or equivalent facility, assigned to a location where patients generally stay at least overnight and provided with room, board, and continuous nursing service.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE">ACUTE</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient acute</td><td>An acute inpatient encounter.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC">NONAC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient non-acute</td><td>Any category of inpatient encounter except 'acute'</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>observation encounter</td><td>An encounter where the patient usually will start in different encounter, such as one in the emergency department (EMER) but then transition to this type of encounter because they require a significant period of treatment and monitoring to determine whether or not their condition warrants an inpatient admission or discharge. In the majority of cases the decision about admission or discharge will occur within a time period determined by local, regional or national regulation, often between 24 and 48 hours.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>pre-admission</td><td>A patient encounter where patient is scheduled or planned to receive service delivery in the future, and the patient is given a pre-admission account number. When the patient comes back for subsequent service, the pre-admission encounter is selected and is encapsulated into the service registration, and a new account number is generated.
+  <div xmlns="http://www.w3.org/1999/xhtml"><p>This value set contains 12 concepts</p><div style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px"><p>Expansion based on: </p><ul><li><a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html">ActCode v6.1.0 (CodeSystem)</a></li><li><a href="CodeSystem-EncounterClass.html">Encounter Class v0.1.0 (CodeSystem)</a></li><li><a href="http://terminology.hl7.org/3.1.0/ValueSet-v3-ActEncounterCode.html">ActEncounterCode v2.0.0 (ValueSet)</a></li></ul></div><table class="codes"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>System</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style="white-space:nowrap"><a name="http---aehrc.github.io-genclipr-fhir-ig-CodeSystem-EncounterClass-RS"> </a>  <a href="CodeSystem-EncounterClass.html#EncounterClass-RS">RS</a></td><td>http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/EncounterClass</td><td>research study</td><td>An encounter that is part of a research study.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-AMB"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-AMB">AMB</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>ambulatory</td><td>A comprehensive term for health care provided in a healthcare facility (e.g. a practitioneraTMs office, clinic setting, or hospital) on a nonresident basis. The term ambulatory usually implies that the patient has come to the location and is not assigned to a bed. Sometimes referred to as an outpatient encounter.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-EMER"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-EMER">EMER</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>emergency</td><td>A patient encounter that takes place at a dedicated healthcare service delivery location where the patient receives immediate evaluation and treatment, provided until the patient can be discharged or responsibility for the patient's care is transferred elsewhere (for example, the patient could be admitted as an inpatient or transferred to another facility.)</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-FLD"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-FLD">FLD</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>field</td><td>A patient encounter that takes place both outside a dedicated service delivery location and outside a patient's residence. Example locations might include an accident site and at a supermarket.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-HH"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-HH">HH</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>home health</td><td>Healthcare encounter that takes place in the residence of the patient or a designee</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-IMP"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-IMP">IMP</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient encounter</td><td>A patient encounter where a patient is admitted by a hospital or equivalent facility, assigned to a location where patients generally stay at least overnight and provided with room, board, and continuous nursing service.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-ACUTE"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-ACUTE">ACUTE</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient acute</td><td>An acute inpatient encounter.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-NONAC"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-NONAC">NONAC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>inpatient non-acute</td><td>Any category of inpatient encounter except 'acute'</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-OBSENC"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-OBSENC">OBSENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>observation encounter</td><td>An encounter where the patient usually will start in different encounter, such as one in the emergency department (EMER) but then transition to this type of encounter because they require a significant period of treatment and monitoring to determine whether or not their condition warrants an inpatient admission or discharge. In the majority of cases the decision about admission or discharge will occur within a time period determined by local, regional or national regulation, often between 24 and 48 hours.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-PRENC"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-PRENC">PRENC</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>pre-admission</td><td>A patient encounter where patient is scheduled or planned to receive service delivery in the future, and the patient is given a pre-admission account number. When the patient comes back for subsequent service, the pre-admission encounter is selected and is encapsulated into the service registration, and a new account number is generated.
 
-*Usage Note:* This is intended to be used in advance of encounter types such as ambulatory, inpatient encounter, virtual, etc.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-SS"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">SS</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>short stay</td><td>An encounter where the patient is admitted to a health care facility for a predetermined length of time, usually less than 24 hours.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-VR"> </a><a href="http://terminology.hl7.org/2.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">VR</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>virtual</td><td>A patient encounter where the patient and the practitioner(s) are not in the same physical location. Examples include telephone conference, email exchange, robotic surgery, and televideo conference.</td></tr></table></div>
+*Usage Note:* This is intended to be used in advance of encounter types such as ambulatory, inpatient encounter, virtual, etc.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-SS"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-SS">SS</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>short stay</td><td>An encounter where the patient is admitted to a health care facility for a predetermined length of time, usually less than 24 hours.</td></tr><tr><td style="white-space:nowrap"><a name="http---terminology.hl7.org-CodeSystem-v3-ActCode-VR"> </a>  <a href="http://terminology.hl7.org/3.1.0/CodeSystem-v3-ActCode.html#v3-ActCode-VR">VR</a></td><td>http://terminology.hl7.org/CodeSystem/v3-ActCode</td><td>virtual</td><td>A patient encounter where the patient and the practitioner(s) are not in the same physical location. Examples include telephone conference, email exchange, robotic surgery, and televideo conference.</td></tr></table></div>
 
   <hr/>
   <p>
@@ -200,7 +240,7 @@
           In this scheme, some codes are under other codes, and imply that the code they are under also applies</td>
     </tr>
     <tr>
-      <td>Source</td>
+      <td>System</td>
       <td>The source of the definition of the code (when the value set draws in codes defined elsewhere)</td>
     </tr>
     <tr>
@@ -220,6 +260,8 @@
       <td>Additional notes about how to use the code</td>
     </tr>
   </table>
+
+  
 
   <!-- insert notes if present -->
   
@@ -244,15 +286,17 @@
       }
     });
   </script>
+  <a name="bottom"> </a>
   <div id="segment-footer" igtool="footer" class="segment">  <!-- segment-footer -->
     <div class="container">  <!-- container -->
+
       <div class="inner-wrapper">
         <p>
-          IG &#169; 2021+ <a style="color: #81BEF7" href="https://aehrc.com">The Australian e-Health Research Centre</a>.  Package agha.fhir.genclipr#0.1.0 based on <a style="color: #81BEF7" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Fri, May 7, 2021 07:08+0000">2021-05-07</span>
+          IG &#169; 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://aehrc.com">The Australian e-Health Research Centre</a>.  Package agha.fhir.genclipr#0.1.0 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>. Generated <span title="Mon, Mar 21, 2022 00:45+0000">2022-03-21</span>
           <br/>
-          <span style="color: #FFFF77">
-                      Links: <a style="color: #81BEF7" href="toc.html">Table of Contents</a> |
-                 <a style="color: #81BEF7" href="qa.html">QA Report</a>
+          <span style="color: var(--footer-highlight-text-color)"></span>
+                      Links: <a style="color: var(--footer-hyperlink-text-color)" href="toc.html">Table of Contents</a> |
+                 <a style="color: var(--footer-hyperlink-text-color)" href="qa.html">QA Report</a>
                  
                 
           </span>
@@ -273,6 +317,8 @@
   <script type="text/javascript" src="assets/js/bootstrap.min.js"> </script>
   <script type="text/javascript" src="assets/js/respond.min.js"> </script>
   <script type="text/javascript" src="assets/js/anchor.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard.min.js"> </script>
+  <script type="text/javascript" src="assets/js/clipboard-btn.js"> </script>
   <script>anchors.options.visible = 'hover'
 anchors.add()</script>
   
@@ -287,3 +333,4 @@ anchors.add()</script>
   ================================================== -->
   </body>
 </html>
+

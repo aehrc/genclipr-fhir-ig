@@ -21,6 +21,13 @@
     "name": "FindingType"
   },
   {
+    "id": "GenomicTestType",
+    "type": "CodeSystem",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/GenomicTestType",
+    "version": "0.1.0",
+    "name": "GenomicTestType"
+  },
+  {
     "id": "IdentifierType",
     "type": "CodeSystem",
     "url": "http://aehrc.github.io/genclipr-fhir-ig/CodeSystem/IdentifierType",
@@ -91,6 +98,13 @@
     "name": "GencliprResearchSubject"
   },
   {
+    "id": "GencliprServiceRequest",
+    "type": "StructureDefinition",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/GencliprServiceRequest",
+    "version": "0.1.0",
+    "name": "GencliprServiceRequest"
+  },
+  {
     "id": "ImagingFinding",
     "type": "StructureDefinition",
     "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ImagingFinding",
@@ -103,13 +117,6 @@
     "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/LaboratoryFinding",
     "version": "0.1.0",
     "name": "LaboratoryFinding"
-  },
-  {
-    "id": "ResearchStudyReference",
-    "type": "StructureDefinition",
-    "url": "http://aehrc.github.io/genclipr-fhir-ig/StructureDefinition/ResearchStudyReference",
-    "version": "0.1.0",
-    "name": "ResearchStudyReference"
   },
   {
     "id": "Sign",
@@ -152,6 +159,13 @@
     "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/EncounterTypes",
     "version": "0.1.0",
     "name": "EncounterTypes"
+  },
+  {
+    "id": "GenomicTestTypes",
+    "type": "ValueSet",
+    "url": "http://aehrc.github.io/genclipr-fhir-ig/ValueSet/GenomicTestTypes",
+    "version": "0.1.0",
+    "name": "GenomicTestTypes"
   },
   {
     "id": "Lateralities",
