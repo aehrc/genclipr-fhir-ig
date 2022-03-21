@@ -7,3 +7,6 @@ Alias: V3ACT = http://terminology.hl7.org/ValueSet/v3-ActEncounterCode
 Alias: ENCTYPE = http://hl7.org/fhir/ValueSet/encounter-type
 Alias: UCUM = http://unitsofmeasure.org
 Alias: BODYSITES = http://hl7.org/fhir/ValueSet/body-site
+Alias: RESEARCHSTUDY = http://hl7.org/fhir/StructureDefinition/workflow-researchStudy
+Alias: ASSOCENCOUNTER = http://hl7.org/fhir/StructureDefinition/encounter-associatedEncounter
+Alias: LOINC = http://loinc.org
